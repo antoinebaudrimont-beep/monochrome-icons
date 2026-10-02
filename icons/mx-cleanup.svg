@@ -1,0 +1,11 @@
+
+<!-- Modified 2026-10-02 by Monochrome Icons contributors.
+SPDX-License-Identifier: GPL-3.0-only
+Credits: 2017-2026 Adrian <adrian@mxlinux.org>
+Original artwork license: GPL-3.0-or-later
+Source and full notices: assets.json and ATTRIBUTION.md in monochrome-icons.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 64 64"><g transform="translate(1.6 1.6) scale(0.95)"><rect x="2" y="2" width="60" height="60" rx="12" fill="black" stroke="white" stroke-width="2.4" /><svg viewBox="1.2921874999999998 0.28437499999999993 18.4078125 26.446875" width="44" height="44" x="10" y="10"><path d="m16 1 2 1-7 13-2-1Z" fill="white" />
+            <path d="m9 12 10 5-2 3-10-5Z" fill="white" />
+            <path d="M7 16 17 21c-4 6-10 7-15 1l3-2Z" fill="white" />
+            <path d="m7 20-2 3m6-2-2 3m5-2-1 2" stroke="black" stroke-width="1.1" stroke-linecap="round" /></svg></g></svg>

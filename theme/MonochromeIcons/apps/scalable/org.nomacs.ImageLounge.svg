@@ -1,0 +1,8 @@
+
+<!-- Modified 2026-10-02 by Monochrome Icons contributors.
+SPDX-License-Identifier: GPL-3.0-only
+Credits: Vince Liuice and WhiteSur contributors
+Original artwork license: GPL-3.0-only
+Source and full notices: assets.json and ATTRIBUTION.md in monochrome-icons.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 64 64"><g transform="translate(1.6 1.6) scale(0.95)"><rect x="2" y="2" width="60" height="60" rx="12" fill="black" stroke="white" stroke-width="2.4" /><svg viewBox="14.4 14.4 35.2 35.2" fill="white" stroke="none" width="44" height="44" x="10" y="10"><g fill="white" stroke="none"><path d="M16 16.001v8.616h2.462v-6.154h6.154V16zm23.386 0v2.462h6.154v6.154H48V16zM16 39.386v8.616h8.615V45.54h-6.154v-6.154zm29.539 0v6.154h-6.154v2.462H48v-8.616zm-8.615-18.461 1.74 1.74-6.962 6.963-1.74-1.74z" fill="white" stroke="none" /><path d="m23.385 24.617 7.385 8.615v7.385h-4.923v2.462h12.308v-2.462h-4.923v-7.385l7.384-8.615z" fill="white" stroke="none" /></g></svg></g></svg>

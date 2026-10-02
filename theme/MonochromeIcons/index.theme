@@ -1,0 +1,19 @@
+[Icon Theme]
+Name=Monochrome Icons
+Comment=White artwork on black faces; WhiteSur-compatible application and category overlay.
+Inherits=WhiteSur-dark,hicolor
+Directories=apps/scalable,categories/scalable
+
+[apps/scalable]
+Size=64
+Type=Scalable
+Context=Applications
+MinSize=16
+MaxSize=512
+
+[categories/scalable]
+Size=64
+Type=Scalable
+Context=Categories
+MinSize=16
+MaxSize=512

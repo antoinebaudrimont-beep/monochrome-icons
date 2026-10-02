@@ -1,0 +1,9 @@
+
+<!-- Modified 2026-10-02 by Monochrome Icons contributors.
+SPDX-License-Identifier: GPL-3.0-only
+Credits: 2016 Dolphin Oracle; MX Community <http://forum.mxlinux.org>
+Original artwork license: GPL-3.0-only
+Source and full notices: assets.json and ATTRIBUTION.md in monochrome-icons.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 64 64"><g transform="translate(1.6 1.6) scale(0.95)"><rect x="2" y="2" width="60" height="60" rx="12" fill="black" stroke="white" stroke-width="2.4" /><svg viewBox="-0.5531250000000001 -0.5531250000000001 25.10625 25.10625" width="44" height="44" x="10" y="10"><circle cx="12" cy="12" r="5" fill="white" />
+            <path d="M12 1v3m0 16v3M1 12h3m16 0h3M4.2 4.2l2.1 2.1m11.4 11.4 2.1 2.1M4.2 19.8l2.1-2.1m11.4-11.4 2.1-2.1" fill="none" stroke="white" stroke-width="1.9" stroke-linecap="round" /></svg></g></svg>

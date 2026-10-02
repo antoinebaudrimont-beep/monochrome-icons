@@ -1,0 +1,10 @@
+
+<!-- Modified 2026-10-02 by Monochrome Icons contributors.
+SPDX-License-Identifier: GPL-3.0-only
+Credits: Vince Liuice and WhiteSur contributors
+Original artwork license: GPL-3.0-only
+Source and full notices: assets.json and ATTRIBUTION.md in monochrome-icons.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 64 64"><g transform="translate(1.6 1.6) scale(0.95)"><rect x="2" y="2" width="60" height="60" rx="12" fill="black" stroke="white" stroke-width="2.4" /><svg viewBox="3.330078125 0.3515625 21.806640625 24.78515625" width="44" height="44" x="10" y="10"><rect x="4" y="4" width="16" height="18" rx="2" fill="white" />
+        <rect x="8" y="1.7" width="8" height="5" rx="1.4" fill="black" stroke="white" stroke-width="1.4" />
+        <path d="M7 11h10M7 15h7" stroke="black" stroke-width="1.8" /><circle cx="18.5" cy="18.5" r="6" fill="black" /><polygon points="18.500,14.396 19.553,13.204 20.566,13.511 20.780,15.088 21.402,15.598 22.990,15.500 23.489,16.434 22.525,17.699 22.604,18.500 23.796,19.553 23.489,20.566 21.912,20.780 21.402,21.402 21.500,22.990 20.566,23.489 19.301,22.525 18.500,22.604 17.447,23.796 16.434,23.489 16.220,21.912 15.598,21.402 14.010,21.500 13.511,20.566 14.475,19.301 14.396,18.500 13.204,17.447 13.511,16.434 15.088,16.220 15.598,15.598 15.500,14.010 16.434,13.511 17.699,14.475" fill="white" /><circle cx="18.5" cy="18.5" r="1.8360000000000003" fill="black" /></svg></g></svg>

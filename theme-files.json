@@ -1,0 +1,1751 @@
+{
+  "name": "MonochromeIcons",
+  "kind": "WhiteSur-compatible icon-theme overlay",
+  "inherits": [
+    "WhiteSur-dark",
+    "hicolor"
+  ],
+  "selection": "cleared-only",
+  "files": [
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-aerc.svg",
+      "sha256": "959e748a603fdcc4e3364bb79545534835662014f7ceddbd09a9330bced48c70",
+      "asset_key": "aerc"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/aerc.svg",
+      "sha256": "959e748a603fdcc4e3364bb79545534835662014f7ceddbd09a9330bced48c70",
+      "asset_key": "aerc"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-chatgpt.svg",
+      "sha256": "c22c8014e5fd113ad56824e2cf3981e86cd6ddc08ad1fee67e9918999d24893f",
+      "asset_key": "chatgpt"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/chatgpt.svg",
+      "sha256": "c22c8014e5fd113ad56824e2cf3981e86cd6ddc08ad1fee67e9918999d24893f",
+      "asset_key": "chatgpt"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-chawan.svg",
+      "sha256": "f16ab261d3e8624499188ecadb4b71dc6aa48ba603c24b416fd981d94eecdb68",
+      "asset_key": "chawan"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/chawan.svg",
+      "sha256": "f16ab261d3e8624499188ecadb4b71dc6aa48ba603c24b416fd981d94eecdb68",
+      "asset_key": "chawan"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-chroncal.svg",
+      "sha256": "ee5077f8c1518c71b3d74f111df7f4fc0bde4caa6898d37f384bbb8306aaedfa",
+      "asset_key": "chroncal"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/chroncal.svg",
+      "sha256": "ee5077f8c1518c71b3d74f111df7f4fc0bde4caa6898d37f384bbb8306aaedfa",
+      "asset_key": "chroncal"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-featherpad.svg",
+      "sha256": "7b9d21e71f7acb2d1c077e40e5c3a4be6a59081a609f6fead8c160d3be21773f",
+      "asset_key": "featherpad"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/featherpad.svg",
+      "sha256": "7b9d21e71f7acb2d1c077e40e5c3a4be6a59081a609f6fead8c160d3be21773f",
+      "asset_key": "featherpad"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-gimp.svg",
+      "sha256": "5f67fb7e8ef7022a80e1e0617da5a7597d6747c397fb9f27ecd027923bed45b8",
+      "asset_key": "gimp"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/gimp.svg",
+      "sha256": "5f67fb7e8ef7022a80e1e0617da5a7597d6747c397fb9f27ecd027923bed45b8",
+      "asset_key": "gimp"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-org.inkscape.Inkscape.svg",
+      "sha256": "a444ce4d138cd9a07f6ae965e569693b3ef000b79923fc3a201e69266f83e7b9",
+      "asset_key": "org.inkscape.Inkscape"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/org.inkscape.Inkscape.svg",
+      "sha256": "a444ce4d138cd9a07f6ae965e569693b3ef000b79923fc3a201e69266f83e7b9",
+      "asset_key": "org.inkscape.Inkscape"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-org.keepassxc.KeePassXC.svg",
+      "sha256": "6413cb16ac9ef2e83eee95a1092c64803ff1460b38ca2b57f3d4c4c1e607a331",
+      "asset_key": "org.keepassxc.KeePassXC"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/org.keepassxc.KeePassXC.svg",
+      "sha256": "6413cb16ac9ef2e83eee95a1092c64803ff1460b38ca2b57f3d4c4c1e607a331",
+      "asset_key": "org.keepassxc.KeePassXC"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-kitty.svg",
+      "sha256": "e554fed7f9d0643b6a1db347cd3e4cd3994f56dfb90407d69454845d289a3748",
+      "asset_key": "kitty"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/kitty.svg",
+      "sha256": "e554fed7f9d0643b6a1db347cd3e4cd3994f56dfb90407d69454845d289a3748",
+      "asset_key": "kitty"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-libreoffice-calc.svg",
+      "sha256": "da75cf1ae978d0861dd0d5fec47c8db2959518203c56a72743662d22e1b3e6b0",
+      "asset_key": "libreoffice-calc"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/libreoffice-calc.svg",
+      "sha256": "da75cf1ae978d0861dd0d5fec47c8db2959518203c56a72743662d22e1b3e6b0",
+      "asset_key": "libreoffice-calc"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-libreoffice-writer.svg",
+      "sha256": "3f7f24600d6badc5edb130b965f663d50df09936dd56d1b0b163e653896bfc13",
+      "asset_key": "libreoffice-writer"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/libreoffice-writer.svg",
+      "sha256": "3f7f24600d6badc5edb130b965f663d50df09936dd56d1b0b163e653896bfc13",
+      "asset_key": "libreoffice-writer"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce-settings-manager.svg",
+      "sha256": "9563991bf3d2b3bfc623924884697854d5556a90366a8a06383a6982dbb92ecd",
+      "asset_key": "xfce-settings-manager"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce-settings-manager.svg",
+      "sha256": "9563991bf3d2b3bfc623924884697854d5556a90366a8a06383a6982dbb92ecd",
+      "asset_key": "xfce-settings-manager"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-org.gnome.Shotwell.svg",
+      "sha256": "391fbef0b861565e99fa3ca9260278a6e06a1d38208c8ca7a9251108ca632cc6",
+      "asset_key": "org.gnome.Shotwell"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/org.gnome.Shotwell.svg",
+      "sha256": "391fbef0b861565e99fa3ca9260278a6e06a1d38208c8ca7a9251108ca632cc6",
+      "asset_key": "org.gnome.Shotwell"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-spotify-web.svg",
+      "sha256": "404b9a77794c5ccf92b3bb162ef8ccc0c04efb573af6fbccba8b10218062cabf",
+      "asset_key": "spotify-web"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/spotify-web.svg",
+      "sha256": "404b9a77794c5ccf92b3bb162ef8ccc0c04efb573af6fbccba8b10218062cabf",
+      "asset_key": "spotify-web"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-org.strawberrymusicplayer.strawberry.svg",
+      "sha256": "b738ff1b992a4264f4f9177cee827cdd23bc4a5e0aedb46400dd9a9f99063087",
+      "asset_key": "org.strawberrymusicplayer.strawberry"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/org.strawberrymusicplayer.strawberry.svg",
+      "sha256": "b738ff1b992a4264f4f9177cee827cdd23bc4a5e0aedb46400dd9a9f99063087",
+      "asset_key": "org.strawberrymusicplayer.strawberry"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce4-taskmanager.svg",
+      "sha256": "57d4cf13e9c76d588a97a05aca67a096bfbcf67c5fe145a57ab7ec1950388cad",
+      "asset_key": "xfce4-taskmanager"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce4-taskmanager.svg",
+      "sha256": "57d4cf13e9c76d588a97a05aca67a096bfbcf67c5fe145a57ab7ec1950388cad",
+      "asset_key": "xfce4-taskmanager"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-texstudio.svg",
+      "sha256": "e19a994613e1f401423dcbae42584dd1906499bf17a3a230b0b259b21d54866e",
+      "asset_key": "texstudio"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/texstudio.svg",
+      "sha256": "e19a994613e1f401423dcbae42584dd1906499bf17a3a230b0b259b21d54866e",
+      "asset_key": "texstudio"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-thunar.svg",
+      "sha256": "b1df54151ce7cb30580190cdf4222e5e1786a470c097dd2c4727c0f91e9c0848",
+      "asset_key": "thunar"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/thunar.svg",
+      "sha256": "b1df54151ce7cb30580190cdf4222e5e1786a470c097dd2c4727c0f91e9c0848",
+      "asset_key": "thunar"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-org.bluesabre.Mugshot.svg",
+      "sha256": "2f9f963e86e620c551ce7d069b98cc039e837b22e3f4d757b6fd475b9717d17c",
+      "asset_key": "org.bluesabre.Mugshot"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/org.bluesabre.Mugshot.svg",
+      "sha256": "2f9f963e86e620c551ce7d069b98cc039e837b22e3f4d757b6fd475b9717d17c",
+      "asset_key": "org.bluesabre.Mugshot"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-about-mx-linux.svg",
+      "sha256": "445e1feb98b48ac867d9a37a585cf7709bcc599d935ca1895e5c93f5fdbe09e1",
+      "asset_key": "about-mx-linux"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/about-mx-linux.svg",
+      "sha256": "445e1feb98b48ac867d9a37a585cf7709bcc599d935ca1895e5c93f5fdbe09e1",
+      "asset_key": "about-mx-linux"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce4-about.svg",
+      "sha256": "3cee3d990c80a65204039772a0bd6efe299b1cc085bab98e8f2550e00befea1e",
+      "asset_key": "xfce4-about"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce4-about.svg",
+      "sha256": "3cee3d990c80a65204039772a0bd6efe299b1cc085bab98e8f2550e00befea1e",
+      "asset_key": "xfce4-about"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce4-accessibility-settings.svg",
+      "sha256": "43f1281db44e0a2d7b6308b4bf548f5ec57d5616a20e0e5c41d99bbb4cdbb819",
+      "asset_key": "xfce4-accessibility-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce4-accessibility-settings.svg",
+      "sha256": "43f1281db44e0a2d7b6308b4bf548f5ec57d5616a20e0e5c41d99bbb4cdbb819",
+      "asset_key": "xfce4-accessibility-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-nm-connection-editor.svg",
+      "sha256": "3535c8f247f79557d66c48e2ac319556aaad59632812d054bb2ad4514fe7932d",
+      "asset_key": "nm-connection-editor"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/nm-connection-editor.svg",
+      "sha256": "3535c8f247f79557d66c48e2ac319556aaad59632812d054bb2ad4514fe7932d",
+      "asset_key": "nm-connection-editor"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-Alacritty.svg",
+      "sha256": "5beb2ea28f3c224586b396b27f4672a61bfe08a0e0ee26a67de61fd5d936a546",
+      "asset_key": "Alacritty"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/Alacritty.svg",
+      "sha256": "5beb2ea28f3c224586b396b27f4672a61bfe08a0e0ee26a67de61fd5d936a546",
+      "asset_key": "Alacritty"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-alsamixer.svg",
+      "sha256": "aac67545f2953c1b6a33b524d35143e197811d608f20068aa156b868bc298aed",
+      "asset_key": "alsamixer"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/alsamixer.svg",
+      "sha256": "aac67545f2953c1b6a33b524d35143e197811d608f20068aa156b868bc298aed",
+      "asset_key": "alsamixer"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce-ui-settings.svg",
+      "sha256": "9c7b5521f2b39486525ac3d84641df9e127c1a191ac2a60a6d378b6d6be2e40a",
+      "asset_key": "xfce-ui-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce-ui-settings.svg",
+      "sha256": "9c7b5521f2b39486525ac3d84641df9e127c1a191ac2a60a6d378b6d6be2e40a",
+      "asset_key": "xfce-ui-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce4-appfinder.svg",
+      "sha256": "e43b1366a5d9669802bf1c542bf3f6b61788cdccb4af4d418b73e9580a8e7a59",
+      "asset_key": "xfce4-appfinder"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce4-appfinder.svg",
+      "sha256": "e43b1366a5d9669802bf1c542bf3f6b61788cdccb4af4d418b73e9580a8e7a59",
+      "asset_key": "xfce4-appfinder"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-asunder.svg",
+      "sha256": "a073c2509ac7668cc0a194eb46796b7d3cfc7a8c284b4b656f4d260211666d07",
+      "asset_key": "asunder"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/asunder.svg",
+      "sha256": "a073c2509ac7668cc0a194eb46796b7d3cfc7a8c284b4b656f4d260211666d07",
+      "asset_key": "asunder"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-bashrc-config.svg",
+      "sha256": "7140d130c73e67b888c5377fc649b082a604ac84c82bb534e60dd65b962fa209",
+      "asset_key": "bashrc-config"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/bashrc-config.svg",
+      "sha256": "7140d130c73e67b888c5377fc649b082a604ac84c82bb534e60dd65b962fa209",
+      "asset_key": "bashrc-config"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-blueman-adapters.svg",
+      "sha256": "3156836c301961f57f36e5ae3e2f32a4cb577c3d3965eddccfd5f098f2b94381",
+      "asset_key": "blueman-adapters"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/blueman-adapters.svg",
+      "sha256": "3156836c301961f57f36e5ae3e2f32a4cb577c3d3965eddccfd5f098f2b94381",
+      "asset_key": "blueman-adapters"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-blueman-manager.svg",
+      "sha256": "ba6c33fa3eee24c3b93107cbbc12213bc71192fe69b27a9198edb493bbdb9e0a",
+      "asset_key": "blueman-manager"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/blueman-manager.svg",
+      "sha256": "ba6c33fa3eee24c3b93107cbbc12213bc71192fe69b27a9198edb493bbdb9e0a",
+      "asset_key": "blueman-manager"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-brave-browser.svg",
+      "sha256": "c5a5f3b56047fa1fbdfe548dba3726bc000624cc52785100ec094af17e62f9bb",
+      "asset_key": "brave-browser"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/brave-browser.svg",
+      "sha256": "c5a5f3b56047fa1fbdfe548dba3726bc000624cc52785100ec094af17e62f9bb",
+      "asset_key": "brave-browser"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-mx-tweak-systray.svg",
+      "sha256": "d74e3517e119c7de81a528a267e12cc0465051aab14fffa799a1a78c942475c8",
+      "asset_key": "mx-tweak-systray"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/mx-tweak-systray.svg",
+      "sha256": "d74e3517e119c7de81a528a267e12cc0465051aab14fffa799a1a78c942475c8",
+      "asset_key": "mx-tweak-systray"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-btop.svg",
+      "sha256": "4ac66cfee548704244f0317695cbbbe6d1f943fec7ad0e1c416557ba78bcf08c",
+      "asset_key": "btop"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/btop.svg",
+      "sha256": "4ac66cfee548704244f0317695cbbbe6d1f943fec7ad0e1c416557ba78bcf08c",
+      "asset_key": "btop"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-thunar-bulk-rename.svg",
+      "sha256": "95d8c690c738eb73283ce060dd45bdde363898437a104cec04d1c7a9db97b6ae",
+      "asset_key": "thunar-bulk-rename"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/thunar-bulk-rename.svg",
+      "sha256": "95d8c690c738eb73283ce060dd45bdde363898437a104cec04d1c7a9db97b6ae",
+      "asset_key": "thunar-bulk-rename"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-org.gnome.Calendar.svg",
+      "sha256": "83f76e4821a6fd44250b406d5632211e95847bc70ca30aa5bd17a39554134cb9",
+      "asset_key": "org.gnome.Calendar"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/org.gnome.Calendar.svg",
+      "sha256": "83f76e4821a6fd44250b406d5632211e95847bc70ca30aa5bd17a39554134cb9",
+      "asset_key": "org.gnome.Calendar"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-org.xfce.Catfish.svg",
+      "sha256": "e43b1366a5d9669802bf1c542bf3f6b61788cdccb4af4d418b73e9580a8e7a59",
+      "asset_key": "org.xfce.Catfish"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/org.xfce.Catfish.svg",
+      "sha256": "e43b1366a5d9669802bf1c542bf3f6b61788cdccb4af4d418b73e9580a8e7a59",
+      "asset_key": "org.xfce.Catfish"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce4-clipman.svg",
+      "sha256": "e355f3030c830d075e11ae69ab540b8c85120bd184993a7651834b41953a01a6",
+      "asset_key": "xfce4-clipman"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce4-clipman.svg",
+      "sha256": "e355f3030c830d075e11ae69ab540b8c85120bd184993a7651834b41953a01a6",
+      "asset_key": "xfce4-clipman"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce4-clipman-settings.svg",
+      "sha256": "5eaaea183ed829775e0ac7d4097366183251cb81f23dc03bf70a1b06971e0746",
+      "asset_key": "xfce4-clipman-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce4-clipman-settings.svg",
+      "sha256": "5eaaea183ed829775e0ac7d4097366183251cb81f23dc03bf70a1b06971e0746",
+      "asset_key": "xfce4-clipman-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce4-color-settings.svg",
+      "sha256": "4b96c952491f5080413b0c865d708ccce91e8d5a3653d2b8cfa6abf243aa6e55",
+      "asset_key": "xfce4-color-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce4-color-settings.svg",
+      "sha256": "4b96c952491f5080413b0c865d708ccce91e8d5a3653d2b8cfa6abf243aa6e55",
+      "asset_key": "xfce4-color-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-conky-toggle.svg",
+      "sha256": "67a5851d9912a9d1ed9be4e4eadde9c0e55163819cd6b65c2d3d40306a38d6e6",
+      "asset_key": "conky-toggle"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/conky-toggle.svg",
+      "sha256": "67a5851d9912a9d1ed9be4e4eadde9c0e55163819cd6b65c2d3d40306a38d6e6",
+      "asset_key": "conky-toggle"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-ca.desrt.dconf-editor.svg",
+      "sha256": "3bda2ac5f24b1f2a6951100a24c10cf9df00498dc38fbc99917a22eebae9c7d9",
+      "asset_key": "ca.desrt.dconf-editor"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/ca.desrt.dconf-editor.svg",
+      "sha256": "3bda2ac5f24b1f2a6951100a24c10cf9df00498dc38fbc99917a22eebae9c7d9",
+      "asset_key": "ca.desrt.dconf-editor"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-deb-installer.svg",
+      "sha256": "094c25cffa60a64a99b2ecda3ad1cbfa536940521e5657687cbfc7059c6e3387",
+      "asset_key": "deb-installer"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/deb-installer.svg",
+      "sha256": "094c25cffa60a64a99b2ecda3ad1cbfa536940521e5657687cbfc7059c6e3387",
+      "asset_key": "deb-installer"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce4-mime-settings.svg",
+      "sha256": "cc488f758bdf81be32f5a4b269c1731f14d754278614a6abb43fa2dddc548714",
+      "asset_key": "xfce4-mime-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce4-mime-settings.svg",
+      "sha256": "cc488f758bdf81be32f5a4b269c1731f14d754278614a6abb43fa2dddc548714",
+      "asset_key": "xfce4-mime-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce-backdrop-settings.svg",
+      "sha256": "4eba60e0a534f404edd09e0168941a5d306d5a8fbb4884d0ca01074d2ee5cf88",
+      "asset_key": "xfce-backdrop-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce-backdrop-settings.svg",
+      "sha256": "4eba60e0a534f404edd09e0168941a5d306d5a8fbb4884d0ca01074d2ee5cf88",
+      "asset_key": "xfce-backdrop-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-org.gnome.baobab.svg",
+      "sha256": "765e13c67025b0ecafb95f04225a5410f9a21c4c579bd01a4918726f380f572d",
+      "asset_key": "org.gnome.baobab"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/org.gnome.baobab.svg",
+      "sha256": "765e13c67025b0ecafb95f04225a5410f9a21c4c579bd01a4918726f380f572d",
+      "asset_key": "org.gnome.baobab"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-org.gnome.DiskUtility.svg",
+      "sha256": "9e78de6ec7302100daec3c09bb6b2cbd0b25f81f3b3aaa02d4049f49dc46d136",
+      "asset_key": "org.gnome.DiskUtility"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/org.gnome.DiskUtility.svg",
+      "sha256": "9e78de6ec7302100daec3c09bb6b2cbd0b25f81f3b3aaa02d4049f49dc46d136",
+      "asset_key": "org.gnome.DiskUtility"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce-display-settings.svg",
+      "sha256": "a2acbc8d5bb0e8479a5e41056f1f2ba5415d220cff916e2327f937ecde03a68f",
+      "asset_key": "xfce-display-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce-display-settings.svg",
+      "sha256": "a2acbc8d5bb0e8479a5e41056f1f2ba5415d220cff916e2327f937ecde03a68f",
+      "asset_key": "xfce-display-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-simple-scan.svg",
+      "sha256": "ffd0926875568e98a6d13bdd6307eea23f9e1c1ebfdf96835abf6eee53f3c168",
+      "asset_key": "simple-scan"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/simple-scan.svg",
+      "sha256": "ffd0926875568e98a6d13bdd6307eea23f9e1c1ebfdf96835abf6eee53f3c168",
+      "asset_key": "simple-scan"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-engrampa.svg",
+      "sha256": "84eea7af1ccfc30fe16fd6957d9b384937e94384b2940951a9fe439c7df942e1",
+      "asset_key": "engrampa"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/engrampa.svg",
+      "sha256": "84eea7af1ccfc30fe16fd6957d9b384937e94384b2940951a9fe439c7df942e1",
+      "asset_key": "engrampa"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-FAQ.svg",
+      "sha256": "431ff9f9cbc0b129b5593273f13d9dc1bca532dca348032aa32bc769a44da8fa",
+      "asset_key": "FAQ"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/FAQ.svg",
+      "sha256": "431ff9f9cbc0b129b5593273f13d9dc1bca532dca348032aa32bc769a44da8fa",
+      "asset_key": "FAQ"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce4-file-manager.svg",
+      "sha256": "148767af61533a31ff100e656a48d550420591df3cff0d1f1b13618ce34a0af2",
+      "asset_key": "xfce4-file-manager"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce4-file-manager.svg",
+      "sha256": "148767af61533a31ff100e656a48d550420591df3cff0d1f1b13618ce34a0af2",
+      "asset_key": "xfce4-file-manager"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-gufw.svg",
+      "sha256": "222d4ced89516397f6bc9040386d18470811589d826487777d5b5703a3659412",
+      "asset_key": "gufw"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/gufw.svg",
+      "sha256": "222d4ced89516397f6bc9040386d18470811589d826487777d5b5703a3659412",
+      "asset_key": "gufw"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-com.github.johnfactotum.Foliate.svg",
+      "sha256": "14381d22571366a90b8cd7f293c0df68e36fa84eb4bed62ddf75d19b23b80fbc",
+      "asset_key": "com.github.johnfactotum.Foliate"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/com.github.johnfactotum.Foliate.svg",
+      "sha256": "14381d22571366a90b8cd7f293c0df68e36fa84eb4bed62ddf75d19b23b80fbc",
+      "asset_key": "com.github.johnfactotum.Foliate"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-formatusb.svg",
+      "sha256": "6f01227489c29fc11bee8a8724b3776f241aa2122f95a805d4fc04ccd8a101dc",
+      "asset_key": "formatusb"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/formatusb.svg",
+      "sha256": "6f01227489c29fc11bee8a8724b3776f241aa2122f95a805d4fc04ccd8a101dc",
+      "asset_key": "formatusb"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-galculator.svg",
+      "sha256": "3d73aa34cd219ddf6e51d721c5a63c26152cb4c52b3cb808bba9a3404aec568e",
+      "asset_key": "galculator"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/galculator.svg",
+      "sha256": "3d73aa34cd219ddf6e51d721c5a63c26152cb4c52b3cb808bba9a3404aec568e",
+      "asset_key": "galculator"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-geany.svg",
+      "sha256": "a1a77e25caec0166eccfb056751f0187eabb5cb190a457daf8834d6e11488e8d",
+      "asset_key": "geany"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/geany.svg",
+      "sha256": "a1a77e25caec0166eccfb056751f0187eabb5cb190a457daf8834d6e11488e8d",
+      "asset_key": "geany"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-github.svg",
+      "sha256": "a1a1c814d6c31f1030ee1c4217ac6b5971fa3317e080e65dca17a2f782d07b81",
+      "asset_key": "github"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/github.svg",
+      "sha256": "a1a1c814d6c31f1030ee1c4217ac6b5971fa3317e080e65dca17a2f782d07b81",
+      "asset_key": "github"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-gparted.svg",
+      "sha256": "9e4b37cf01355b65ee81981ae2a3e40bd9aeba8eef7ec652e3acd33abdca79c0",
+      "asset_key": "gparted"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/gparted.svg",
+      "sha256": "9e4b37cf01355b65ee81981ae2a3e40bd9aeba8eef7ec652e3acd33abdca79c0",
+      "asset_key": "gparted"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-org.gtkhash.gtkhash.svg",
+      "sha256": "1f94d530d952d6d6c5762b771665ef72c5d1638c3382261a430218782027617c",
+      "asset_key": "org.gtkhash.gtkhash"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/org.gtkhash.gtkhash.svg",
+      "sha256": "1f94d530d952d6d6c5762b771665ef72c5d1638c3382261a430218782027617c",
+      "asset_key": "org.gtkhash.gtkhash"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-guvcview.svg",
+      "sha256": "2c0ee9dbed305db05e8b88d6c94849c1338b6b76a1425b58b27da7d681ef000f",
+      "asset_key": "guvcview"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/guvcview.svg",
+      "sha256": "2c0ee9dbed305db05e8b88d6c94849c1338b6b76a1425b58b27da7d681ef000f",
+      "asset_key": "guvcview"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-htop.svg",
+      "sha256": "5a725fb95f6e2bc0ac42db36b8526d9b7d366bbc6233bad176a5ab56878ebbee",
+      "asset_key": "htop"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/htop.svg",
+      "sha256": "5a725fb95f6e2bc0ac42db36b8526d9b7d366bbc6233bad176a5ab56878ebbee",
+      "asset_key": "htop"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-yad-icon-browser.svg",
+      "sha256": "48ef315527b30cf43d749595648613ec4b6084ba14edd53bcccff2c980bdaccf",
+      "asset_key": "yad-icon-browser"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/yad-icon-browser.svg",
+      "sha256": "48ef315527b30cf43d749595648613ec4b6084ba14edd53bcccff2c980bdaccf",
+      "asset_key": "yad-icon-browser"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-Jar-Loader.svg",
+      "sha256": "44b4dc945e0d756ed3f566d7010f20ee951e0c083d6af4825016e4b287e9ff11",
+      "asset_key": "Jar-Loader"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/Jar-Loader.svg",
+      "sha256": "44b4dc945e0d756ed3f566d7010f20ee951e0c083d6af4825016e4b287e9ff11",
+      "asset_key": "Jar-Loader"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce-keyboard-settings.svg",
+      "sha256": "f3bd4675fa2be4360ff1177f7ede669c5de7161020cf1e1f78d293dfaa8281a8",
+      "asset_key": "xfce-keyboard-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce-keyboard-settings.svg",
+      "sha256": "f3bd4675fa2be4360ff1177f7ede669c5de7161020cf1e1f78d293dfaa8281a8",
+      "asset_key": "xfce-keyboard-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-libreoffice-startcenter.svg",
+      "sha256": "8b002638d7c391d282dc2e5f5d99078b2e34568adc8f33b165c4013dc66b6d39",
+      "asset_key": "libreoffice-startcenter"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/libreoffice-startcenter.svg",
+      "sha256": "8b002638d7c391d282dc2e5f5d99078b2e34568adc8f33b165c4013dc66b6d39",
+      "asset_key": "libreoffice-startcenter"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-libreoffice-base.svg",
+      "sha256": "99004ce5faa31237b461f564f4d8c8794d104eb3c8ab61a02802156e91da5030",
+      "asset_key": "libreoffice-base"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/libreoffice-base.svg",
+      "sha256": "99004ce5faa31237b461f564f4d8c8794d104eb3c8ab61a02802156e91da5030",
+      "asset_key": "libreoffice-base"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-libreoffice-draw.svg",
+      "sha256": "6bbfd8b90556335b19a02c62cffeffee9d798aacadab3431bae3f737955fca38",
+      "asset_key": "libreoffice-draw"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/libreoffice-draw.svg",
+      "sha256": "6bbfd8b90556335b19a02c62cffeffee9d798aacadab3431bae3f737955fca38",
+      "asset_key": "libreoffice-draw"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-libreoffice-impress.svg",
+      "sha256": "3624d35cf9dbb976a2b54326bbcf49fe2e4adaa4d6eafeb4f9bfbce2e0393b62",
+      "asset_key": "libreoffice-impress"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/libreoffice-impress.svg",
+      "sha256": "3624d35cf9dbb976a2b54326bbcf49fe2e4adaa4d6eafeb4f9bfbce2e0393b62",
+      "asset_key": "libreoffice-impress"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-libreoffice-math.svg",
+      "sha256": "2fd8f3d19d06173a5b448d5a8808eba2390410fba2f380be0e268a1b16515e8d",
+      "asset_key": "libreoffice-math"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/libreoffice-math.svg",
+      "sha256": "2fd8f3d19d06173a5b448d5a8808eba2390410fba2f380be0e268a1b16515e8d",
+      "asset_key": "libreoffice-math"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-lightdm-gtk-greeter-settings.svg",
+      "sha256": "db0b831ee4729227d5152ead2f6de50405d15e3c6d72e380a628ef01c775866f",
+      "asset_key": "lightdm-gtk-greeter-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/lightdm-gtk-greeter-settings.svg",
+      "sha256": "db0b831ee4729227d5152ead2f6de50405d15e3c6d72e380a628ef01c775866f",
+      "asset_key": "lightdm-gtk-greeter-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce4-session-logout.svg",
+      "sha256": "241343e2d196677494ef70cf6ca48b51a472cc750c62b8dfa9e59d88b38d9d6b",
+      "asset_key": "xfce4-session-logout"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce4-session-logout.svg",
+      "sha256": "241343e2d196677494ef70cf6ca48b51a472cc750c62b8dfa9e59d88b38d9d6b",
+      "asset_key": "xfce4-session-logout"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-magnus.svg",
+      "sha256": "dbd2e8cd95758dfc8a1154cd10bdaae88749bed127bdcabb85fa1e8ebb8af861",
+      "asset_key": "magnus"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/magnus.svg",
+      "sha256": "dbd2e8cd95758dfc8a1154cd10bdaae88749bed127bdcabb85fa1e8ebb8af861",
+      "asset_key": "magnus"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-org.gnome.Mahjongg.svg",
+      "sha256": "531bf25cddcbc2d172e0e31bbd90ac3e97d0adc50e832fa46ab11aa8c428b3fd",
+      "asset_key": "org.gnome.Mahjongg"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/org.gnome.Mahjongg.svg",
+      "sha256": "531bf25cddcbc2d172e0e31bbd90ac3e97d0adc50e832fa46ab11aa8c428b3fd",
+      "asset_key": "org.gnome.Mahjongg"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce4-mail-reader.svg",
+      "sha256": "1be799a7586e61e740e4c1292ae3b44125d827c0ada7f768f44f2cfc8339b77c",
+      "asset_key": "xfce4-mail-reader"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce4-mail-reader.svg",
+      "sha256": "1be799a7586e61e740e4c1292ae3b44125d827c0ada7f768f44f2cfc8339b77c",
+      "asset_key": "xfce4-mail-reader"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-menulibre.svg",
+      "sha256": "b13c8967b6c5b9894c2618d9eb8ac3d39d951c194f744fd44b4357e7b3614b29",
+      "asset_key": "menulibre"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/menulibre.svg",
+      "sha256": "b13c8967b6c5b9894c2618d9eb8ac3d39d951c194f744fd44b4357e7b3614b29",
+      "asset_key": "menulibre"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce-mouse-settings.svg",
+      "sha256": "5f0a0b2ec0a941dbeea9fbe81edb6b6d3d23828df6647f43800ee23c2b55199d",
+      "asset_key": "xfce-mouse-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce-mouse-settings.svg",
+      "sha256": "5f0a0b2ec0a941dbeea9fbe81edb6b6d3d23828df6647f43800ee23c2b55199d",
+      "asset_key": "xfce-mouse-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-mpv.svg",
+      "sha256": "a33b7956d21495a1dcfe79eb06ee12676e14f0bda4846f0d6bd60e3bb3c9dedc",
+      "asset_key": "mpv"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/mpv.svg",
+      "sha256": "a33b7956d21495a1dcfe79eb06ee12676e14f0bda4846f0d6bd60e3bb3c9dedc",
+      "asset_key": "mpv"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-mpv-radio-tray.svg",
+      "sha256": "a3fb32c71a0e6623800211fa1f530d0066d80517cca32cbcfe07d09c64366532",
+      "asset_key": "mpv-radio-tray"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/mpv-radio-tray.svg",
+      "sha256": "a3fb32c71a0e6623800211fa1f530d0066d80517cca32cbcfe07d09c64366532",
+      "asset_key": "mpv-radio-tray"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-mx-boot-repair.svg",
+      "sha256": "6295ebc36dc0486186d6f4592ad26e439ca0c9884b8c64319b494f7bb836539b",
+      "asset_key": "mx-boot-repair"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/mx-boot-repair.svg",
+      "sha256": "6295ebc36dc0486186d6f4592ad26e439ca0c9884b8c64319b494f7bb836539b",
+      "asset_key": "mx-boot-repair"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-mx-cleanup.svg",
+      "sha256": "ac7c3262d8f1b59941d3c6fa64c599d90494ac0b639f7af8c6cfd38883a47aa7",
+      "asset_key": "mx-cleanup"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/mx-cleanup.svg",
+      "sha256": "ac7c3262d8f1b59941d3c6fa64c599d90494ac0b639f7af8c6cfd38883a47aa7",
+      "asset_key": "mx-cleanup"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-mx-conky.svg",
+      "sha256": "77a07a886c45e7b0c176b2a90d8ce8358cac6f8d9ae0e0a18b95ad49bf130063",
+      "asset_key": "mx-conky"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/mx-conky.svg",
+      "sha256": "77a07a886c45e7b0c176b2a90d8ce8358cac6f8d9ae0e0a18b95ad49bf130063",
+      "asset_key": "mx-conky"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-mx-locale.svg",
+      "sha256": "867e55000fc980f97ae9604ee4efc93c53e8d6949207ae1a331cadcd7a46f879",
+      "asset_key": "mx-locale"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/mx-locale.svg",
+      "sha256": "867e55000fc980f97ae9604ee4efc93c53e8d6949207ae1a331cadcd7a46f879",
+      "asset_key": "mx-locale"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-mx-packageinstaller.svg",
+      "sha256": "18aed233a8541c0674772963b132cd5b937021608389cef59663b25cac32ff57",
+      "asset_key": "mx-packageinstaller"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/mx-packageinstaller.svg",
+      "sha256": "18aed233a8541c0674772963b132cd5b937021608389cef59663b25cac32ff57",
+      "asset_key": "mx-packageinstaller"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-mx-remastercc.svg",
+      "sha256": "3443f9228e45986cf60c843e94288b365d683940c16b696cbafb0380d7d595bc",
+      "asset_key": "mx-remastercc"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/mx-remastercc.svg",
+      "sha256": "3443f9228e45986cf60c843e94288b365d683940c16b696cbafb0380d7d595bc",
+      "asset_key": "mx-remastercc"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-mx-repo-manager.svg",
+      "sha256": "0a710bca891dc61119b9cb41dce0f022b0a7e4a631dd3a3e7d988a480361e0ff",
+      "asset_key": "mx-repo-manager"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/mx-repo-manager.svg",
+      "sha256": "0a710bca891dc61119b9cb41dce0f022b0a7e4a631dd3a3e7d988a480361e0ff",
+      "asset_key": "mx-repo-manager"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-mx-samba-config.svg",
+      "sha256": "fb55ef9475ba616df3984a952facc5131b36f73c1fd6e202b9906f41b43d65b2",
+      "asset_key": "mx-samba-config"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/mx-samba-config.svg",
+      "sha256": "fb55ef9475ba616df3984a952facc5131b36f73c1fd6e202b9906f41b43d65b2",
+      "asset_key": "mx-samba-config"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-mx-select-sound.svg",
+      "sha256": "55d4eeacd968d50b4693f573b87f6c28130550a0e3eba2f89e2dd5819954aa17",
+      "asset_key": "mx-select-sound"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/mx-select-sound.svg",
+      "sha256": "55d4eeacd968d50b4693f573b87f6c28130550a0e3eba2f89e2dd5819954aa17",
+      "asset_key": "mx-select-sound"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-mx-service-manager.svg",
+      "sha256": "b8976079e127555859d2bdcd4c31e7abc522f93ace59d89b37be0779a1345931",
+      "asset_key": "mx-service-manager"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/mx-service-manager.svg",
+      "sha256": "b8976079e127555859d2bdcd4c31e7abc522f93ace59d89b37be0779a1345931",
+      "asset_key": "mx-service-manager"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-mx-system-sounds.svg",
+      "sha256": "9108e06210f4fce498dcef6265a15aeb71845a35e697adfd27264245a309d52c",
+      "asset_key": "mx-system-sounds"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/mx-system-sounds.svg",
+      "sha256": "9108e06210f4fce498dcef6265a15aeb71845a35e697adfd27264245a309d52c",
+      "asset_key": "mx-system-sounds"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-mx-tools.svg",
+      "sha256": "5be84e6b37dfa3f3fa7dbc54a366ae018e527a5f3ca2bb69db7cee87a2c27750",
+      "asset_key": "mx-tools"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/mx-tools.svg",
+      "sha256": "5be84e6b37dfa3f3fa7dbc54a366ae018e527a5f3ca2bb69db7cee87a2c27750",
+      "asset_key": "mx-tools"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-mx-tweak.svg",
+      "sha256": "7e42d9f8a6959c439ea418fa84b1b54c91507c44c05dc042e808a6fdd774ecfb",
+      "asset_key": "mx-tweak"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/mx-tweak.svg",
+      "sha256": "7e42d9f8a6959c439ea418fa84b1b54c91507c44c05dc042e808a6fdd774ecfb",
+      "asset_key": "mx-tweak"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-mx-usb-unmounter.svg",
+      "sha256": "689074c6e71a590fbacf0dfce75f27b1ebf25fc5c5f83417e8c67add5a402503",
+      "asset_key": "mx-usb-unmounter"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/mx-usb-unmounter.svg",
+      "sha256": "689074c6e71a590fbacf0dfce75f27b1ebf25fc5c5f83417e8c67add5a402503",
+      "asset_key": "mx-usb-unmounter"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-Help.svg",
+      "sha256": "d3cd1a1a6081749b924fa4f4c7471ad50b0da146b5875b4273e50b1e6997e8f4",
+      "asset_key": "Help"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/Help.svg",
+      "sha256": "d3cd1a1a6081749b924fa4f4c7471ad50b0da146b5875b4273e50b1e6997e8f4",
+      "asset_key": "Help"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-mx-welcome.svg",
+      "sha256": "f7d1e980dcea44229b1cf89501eddc61b777d3f2f4e3560312a711b260cdf687",
+      "asset_key": "mx-welcome"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/mx-welcome.svg",
+      "sha256": "f7d1e980dcea44229b1cf89501eddc61b777d3f2f4e3560312a711b260cdf687",
+      "asset_key": "mx-welcome"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-org.nomacs.ImageLounge.svg",
+      "sha256": "6b0dfa3afad4f40301e42a87a01e8c5f928ef654f5dcf5c32c52d7f3184705a9",
+      "asset_key": "org.nomacs.ImageLounge"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/org.nomacs.ImageLounge.svg",
+      "sha256": "6b0dfa3afad4f40301e42a87a01e8c5f928ef654f5dcf5c32c52d7f3184705a9",
+      "asset_key": "org.nomacs.ImageLounge"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce4-notifyd-config.svg",
+      "sha256": "3708b1733108099134e70d92017db58fdc007b5a5a4659a05020b4b31f6b093f",
+      "asset_key": "xfce4-notifyd-config"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce4-notifyd-config.svg",
+      "sha256": "3708b1733108099134e70d92017db58fdc007b5a5a4659a05020b4b31f6b093f",
+      "asset_key": "xfce4-notifyd-config"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-ddm-nvidia.svg",
+      "sha256": "b02ed085f2d5b23d56676f25558e10a56e00a54ba02d7a21d1eeeef11aa2130a",
+      "asset_key": "ddm-nvidia"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/ddm-nvidia.svg",
+      "sha256": "b02ed085f2d5b23d56676f25558e10a56e00a54ba02d7a21d1eeeef11aa2130a",
+      "asset_key": "ddm-nvidia"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-onboard.svg",
+      "sha256": "316d426f47bd38eafbcdd03d0d56b0deb945976019077f3324c347942bbdd6b5",
+      "asset_key": "onboard"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/onboard.svg",
+      "sha256": "316d426f47bd38eafbcdd03d0d56b0deb945976019077f3324c347942bbdd6b5",
+      "asset_key": "onboard"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-onboard-settings.svg",
+      "sha256": "2c7f29aba8f576ffb4a0585a223b16c1082a0135d48c15672c3fc694d4a8385d",
+      "asset_key": "onboard-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/onboard-settings.svg",
+      "sha256": "2c7f29aba8f576ffb4a0585a223b16c1082a0135d48c15672c3fc694d4a8385d",
+      "asset_key": "onboard-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-org.xfce.orage.svg",
+      "sha256": "b0fe28fe218fca713f87defe33ff3a62812e3f349e3607a4e6c784e152eb6172",
+      "asset_key": "org.xfce.orage"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/org.xfce.orage.svg",
+      "sha256": "b0fe28fe218fca713f87defe33ff3a62812e3f349e3607a4e6c784e152eb6172",
+      "asset_key": "org.xfce.orage"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-org.xfce.orage-settings.svg",
+      "sha256": "68f19a1713690e1dcb6d2158a89d063c8809c327ffb368ce1d0c44ef8ed8072a",
+      "asset_key": "org.xfce.orage-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/org.xfce.orage-settings.svg",
+      "sha256": "68f19a1713690e1dcb6d2158a89d063c8809c327ffb368ce1d0c44ef8ed8072a",
+      "asset_key": "org.xfce.orage-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-panel-preferences.svg",
+      "sha256": "88936bfdbb6683ca82309337b9a8f4a40ac44c8fdc84fb103dea8a8515897974",
+      "asset_key": "panel-preferences"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/panel-preferences.svg",
+      "sha256": "88936bfdbb6683ca82309337b9a8f4a40ac44c8fdc84fb103dea8a8515897974",
+      "asset_key": "panel-preferences"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-org.gnome.seahorse.Application.svg",
+      "sha256": "a4ca4e7b5484638230dd48ab175398f36065b8ef9c65b9b50c0fd91ca6ad1ab8",
+      "asset_key": "org.gnome.seahorse.Application"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/org.gnome.seahorse.Application.svg",
+      "sha256": "a4ca4e7b5484638230dd48ab175398f36065b8ef9c65b9b50c0fd91ca6ad1ab8",
+      "asset_key": "org.gnome.seahorse.Application"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-com.github.jeromerobert.pdfarranger.svg",
+      "sha256": "21bcaeb5aed93765126577d7c377b3a115207c2b2747165bde3c28a06b477907",
+      "asset_key": "com.github.jeromerobert.pdfarranger"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/com.github.jeromerobert.pdfarranger.svg",
+      "sha256": "21bcaeb5aed93765126577d7c377b3a115207c2b2747165bde3c28a06b477907",
+      "asset_key": "com.github.jeromerobert.pdfarranger"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-plank.svg",
+      "sha256": "002b8552f664c995d8c5b2b06185e1d703627a68727a9ec961c64a471427a3b9",
+      "asset_key": "plank"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/plank.svg",
+      "sha256": "002b8552f664c995d8c5b2b06185e1d703627a68727a9ec961c64a471427a3b9",
+      "asset_key": "plank"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce4-power-manager-settings.svg",
+      "sha256": "8c440244973a07d5b041814f1b5745227f88f2b6d86b27074a885e4b046f0ef8",
+      "asset_key": "xfce4-power-manager-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce4-power-manager-settings.svg",
+      "sha256": "8c440244973a07d5b041814f1b5745227f88f2b6d86b27074a885e4b046f0ef8",
+      "asset_key": "xfce4-power-manager-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-system-config-printer.svg",
+      "sha256": "90b3188e2873fc20f1d4ae08a9a71346189f55549380091f5679386d305b4895",
+      "asset_key": "system-config-printer"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/system-config-printer.svg",
+      "sha256": "90b3188e2873fc20f1d4ae08a9a71346189f55549380091f5679386d305b4895",
+      "asset_key": "system-config-printer"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-Py-Loader.svg",
+      "sha256": "3fadeee52c832d90d30aa5f186ec4c80548dd22965e7a09a83eabe124e2c9569",
+      "asset_key": "Py-Loader"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/Py-Loader.svg",
+      "sha256": "3fadeee52c832d90d30aa5f186ec4c80548dd22965e7a09a83eabe124e2c9569",
+      "asset_key": "Py-Loader"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-qpdfview.svg",
+      "sha256": "a1d880cf6e99bda9669325dd62e5c3c5947cbb7c3bbbadc8e11375c1b57ba17e",
+      "asset_key": "qpdfview"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/qpdfview.svg",
+      "sha256": "a1d880cf6e99bda9669325dd62e5c3c5947cbb7c3bbbadc8e11375c1b57ba17e",
+      "asset_key": "qpdfview"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-redshift-gtk.svg",
+      "sha256": "0d2ebfff0995bdab43946e818decf5c401a74bc6bac43aca6b6228ee78b5036d",
+      "asset_key": "redshift-gtk"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/redshift-gtk.svg",
+      "sha256": "0d2ebfff0995bdab43946e818decf5c401a74bc6bac43aca6b6228ee78b5036d",
+      "asset_key": "redshift-gtk"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-thunar-volman-settings.svg",
+      "sha256": "271794e64174b93bd6c27970391a9e5f31685a7ecfeccdeea149bc158c8d8954",
+      "asset_key": "thunar-volman-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/thunar-volman-settings.svg",
+      "sha256": "271794e64174b93bd6c27970391a9e5f31685a7ecfeccdeea149bc158c8d8954",
+      "asset_key": "thunar-volman-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce4-run.svg",
+      "sha256": "a4c44980e302c2f7ba37615d0f2939caf9e65c0c7acad5f2d35cfe36fc28792b",
+      "asset_key": "xfce4-run"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce4-run.svg",
+      "sha256": "a4c44980e302c2f7ba37615d0f2939caf9e65c0c7acad5f2d35cfe36fc28792b",
+      "asset_key": "xfce4-run"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce4-screenshooter.svg",
+      "sha256": "48cbae7f7675f8d7c1c617ad8754e772d6ca411d96b2833d632f1e8daa1e776d",
+      "asset_key": "xfce4-screenshooter"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce4-screenshooter.svg",
+      "sha256": "48cbae7f7675f8d7c1c617ad8754e772d6ca411d96b2833d632f1e8daa1e776d",
+      "asset_key": "xfce4-screenshooter"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce4-sensors.svg",
+      "sha256": "59a1333abe1316b6bd09180cbf8382a9d73ed08fed780cbabe9548a6edc7db0c",
+      "asset_key": "xfce4-sensors"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce4-sensors.svg",
+      "sha256": "59a1333abe1316b6bd09180cbf8382a9d73ed08fed780cbabe9548a6edc7db0c",
+      "asset_key": "xfce4-sensors"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce-session-settings.svg",
+      "sha256": "9fc207807783e4cfece7df9fd8ea739a5415a36f67173af49e25f5e16e8e44dc",
+      "asset_key": "xfce-session-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce-session-settings.svg",
+      "sha256": "9fc207807783e4cfece7df9fd8ea739a5415a36f67173af49e25f5e16e8e44dc",
+      "asset_key": "xfce-session-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce4-settings-editor.svg",
+      "sha256": "e8178cf4b58f58f7eae018dbbef3ca3a469dab1c5b12e964d7e06a7c964cd9bc",
+      "asset_key": "xfce4-settings-editor"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce4-settings-editor.svg",
+      "sha256": "e8178cf4b58f58f7eae018dbbef3ca3a469dab1c5b12e964d7e06a7c964cd9bc",
+      "asset_key": "xfce4-settings-editor"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-org.gnome.SwellFoop.svg",
+      "sha256": "2729a3f02fa653b19ca46fbbf8c9c1b5fc9aa30640485f49d9b2d9ea62b63521",
+      "asset_key": "org.gnome.SwellFoop"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/org.gnome.SwellFoop.svg",
+      "sha256": "2729a3f02fa653b19ca46fbbf8c9c1b5fc9aa30640485f49d9b2d9ea62b63521",
+      "asset_key": "org.gnome.SwellFoop"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-synaptic.svg",
+      "sha256": "5569df1cb5636ace74842fef89db6ccbe3952c966c077f48351a2ee74ce2982e",
+      "asset_key": "synaptic"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/synaptic.svg",
+      "sha256": "5569df1cb5636ace74842fef89db6ccbe3952c966c077f48351a2ee74ce2982e",
+      "asset_key": "synaptic"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce4-terminal-emulator.svg",
+      "sha256": "434791b2d796b95be0f254b729725f8c06438f6ab611a79e8d47ded9e6dd480f",
+      "asset_key": "xfce4-terminal-emulator"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce4-terminal-emulator.svg",
+      "sha256": "434791b2d796b95be0f254b729725f8c06438f6ab611a79e8d47ded9e6dd480f",
+      "asset_key": "xfce4-terminal-emulator"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-texdoctk.svg",
+      "sha256": "fdd04c11660512e4da6f6462ce7c2de33053c150ec297771c6fc85237eee8b0e",
+      "asset_key": "texdoctk"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/texdoctk.svg",
+      "sha256": "fdd04c11660512e4da6f6462ce7c2de33053c150ec297771c6fc85237eee8b0e",
+      "asset_key": "texdoctk"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-info.svg",
+      "sha256": "1a996e35c531e63f99b4259520fb4cfa3cc7eb0400253629b0e609ae478e1ab3",
+      "asset_key": "info"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/info.svg",
+      "sha256": "1a996e35c531e63f99b4259520fb4cfa3cc7eb0400253629b0e609ae478e1ab3",
+      "asset_key": "info"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-thunar-settings.svg",
+      "sha256": "ecf0c527fe32aa74fde50cac859f57c872170a381ca239b846ac4efaab4c43eb",
+      "asset_key": "thunar-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/thunar-settings.svg",
+      "sha256": "ecf0c527fe32aa74fde50cac859f57c872170a381ca239b846ac4efaab4c43eb",
+      "asset_key": "thunar-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-thunderbird.svg",
+      "sha256": "d9c62c617448efba808bcca3d59758745ed8c7066e070043d8159c1e52be21f5",
+      "asset_key": "thunderbird"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/thunderbird.svg",
+      "sha256": "d9c62c617448efba808bcca3d59758745ed8c7066e070043d8159c1e52be21f5",
+      "asset_key": "thunderbird"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-timeshift-gtk.svg",
+      "sha256": "76cfc23c0f495762677d4d1be42f2f13210752f9136ac4ffd7a6a08b4b709adf",
+      "asset_key": "timeshift-gtk"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/timeshift-gtk.svg",
+      "sha256": "76cfc23c0f495762677d4d1be42f2f13210752f9136ac4ffd7a6a08b4b709adf",
+      "asset_key": "timeshift-gtk"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-transmission-qt.svg",
+      "sha256": "2d1f32740d7005e4717437dfdf01f4e703ff499dd0f1c9a43a90075c30ff481c",
+      "asset_key": "transmission-qt"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/transmission-qt.svg",
+      "sha256": "2d1f32740d7005e4717437dfdf01f4e703ff499dd0f1c9a43a90075c30ff481c",
+      "asset_key": "transmission-qt"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-uefi-manager.svg",
+      "sha256": "5e8179d789cda2b4aef321e83a43b6a4311554120250de911780498ed237b388",
+      "asset_key": "uefi-manager"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/uefi-manager.svg",
+      "sha256": "5e8179d789cda2b4aef321e83a43b6a4311554120250de911780498ed237b388",
+      "asset_key": "uefi-manager"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-debian-uxterm.svg",
+      "sha256": "cd2969197e4cf39db341fb216c6b96bcbd7101188845336044b2f0539818cc36",
+      "asset_key": "debian-uxterm"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/debian-uxterm.svg",
+      "sha256": "cd2969197e4cf39db341fb216c6b96bcbd7101188845336044b2f0539818cc36",
+      "asset_key": "debian-uxterm"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-com.microsoft.VSCode.svg",
+      "sha256": "f86f865022cd45d12ea4d07f6adf4372428f5aea627d14f3c5454a0326625df9",
+      "asset_key": "com.microsoft.VSCode"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/com.microsoft.VSCode.svg",
+      "sha256": "f86f865022cd45d12ea4d07f6adf4372428f5aea627d14f3c5454a0326625df9",
+      "asset_key": "com.microsoft.VSCode"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-vlc.svg",
+      "sha256": "4f055a287f2178a9137ed4852848570529f4ca002d0f0009baa29fe3439cd7f8",
+      "asset_key": "vlc"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/vlc.svg",
+      "sha256": "4f055a287f2178a9137ed4852848570529f4ca002d0f0009baa29fe3439cd7f8",
+      "asset_key": "vlc"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-org.pulseaudio.pavucontrol.svg",
+      "sha256": "4daaf9a4510806634ee79d6b8e69ee18f859e6d40ce62c18232824c109f7e570",
+      "asset_key": "org.pulseaudio.pavucontrol"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/org.pulseaudio.pavucontrol.svg",
+      "sha256": "4daaf9a4510806634ee79d6b8e69ee18f859e6d40ce62c18232824c109f7e570",
+      "asset_key": "org.pulseaudio.pavucontrol"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce4-web-browser.svg",
+      "sha256": "3c82b4f0c83035b9bbc8c23d54e9609004e08845532180f23f37d20586c7ce77",
+      "asset_key": "xfce4-web-browser"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce4-web-browser.svg",
+      "sha256": "3c82b4f0c83035b9bbc8c23d54e9609004e08845532180f23f37d20586c7ce77",
+      "asset_key": "xfce4-web-browser"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-whatsapp-web.svg",
+      "sha256": "2d8a8bf83ce76e6c2698cd738acc8db2c586c91e4b9a87b972e0033b97888f36",
+      "asset_key": "whatsapp-web"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/whatsapp-web.svg",
+      "sha256": "2d8a8bf83ce76e6c2698cd738acc8db2c586c91e4b9a87b972e0033b97888f36",
+      "asset_key": "whatsapp-web"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce-wm-settings.svg",
+      "sha256": "ebe9aa84816ef9217dada8ecd857dd376766eb7fd3f800cb850d741bb0d1a176",
+      "asset_key": "xfce-wm-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce-wm-settings.svg",
+      "sha256": "ebe9aa84816ef9217dada8ecd857dd376766eb7fd3f800cb850d741bb0d1a176",
+      "asset_key": "xfce-wm-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce-wmtweaks-settings.svg",
+      "sha256": "70992265e1dd6abd82ab24d2b30a197313acac02ec3fc1b918d0863467bc9f6c",
+      "asset_key": "xfce-wmtweaks-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce-wmtweaks-settings.svg",
+      "sha256": "70992265e1dd6abd82ab24d2b30a197313acac02ec3fc1b918d0863467bc9f6c",
+      "asset_key": "xfce-wmtweaks-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce-workspaces-settings.svg",
+      "sha256": "e706ef91777afd347f5ae17fe9d45a767f73c663703a1894bcf0febe251272d3",
+      "asset_key": "xfce-workspaces-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce-workspaces-settings.svg",
+      "sha256": "e706ef91777afd347f5ae17fe9d45a767f73c663703a1894bcf0febe251272d3",
+      "asset_key": "xfce-workspaces-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfburn.svg",
+      "sha256": "40c17902682c0b456927817a8b821ece855d1a2b44939b6bd5912d8cec8904be",
+      "asset_key": "xfburn"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfburn.svg",
+      "sha256": "40c17902682c0b456927817a8b821ece855d1a2b44939b6bd5912d8cec8904be",
+      "asset_key": "xfburn"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce4-screensaver-preferences.svg",
+      "sha256": "2e7fe2e21f08f4170523b277439867896099e467dacb3ce53826bef412425f03",
+      "asset_key": "xfce4-screensaver-preferences"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce4-screensaver-preferences.svg",
+      "sha256": "2e7fe2e21f08f4170523b277439867896099e467dacb3ce53826bef412425f03",
+      "asset_key": "xfce4-screensaver-preferences"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce4-terminal.svg",
+      "sha256": "fc1aa6bd93176cfb3266bf873d8bcd04f740edbc986e86943ec9887c0cbd5e43",
+      "asset_key": "xfce4-terminal"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce4-terminal.svg",
+      "sha256": "fc1aa6bd93176cfb3266bf873d8bcd04f740edbc986e86943ec9887c0cbd5e43",
+      "asset_key": "xfce4-terminal"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfce4-terminal-settings.svg",
+      "sha256": "1696771bf444f861ea8accc785036cf7cf3986d30c9c60c39dcd17e414350ef8",
+      "asset_key": "xfce4-terminal-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfce4-terminal-settings.svg",
+      "sha256": "1696771bf444f861ea8accc785036cf7cf3986d30c9c60c39dcd17e414350ef8",
+      "asset_key": "xfce4-terminal-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-debian-xterm.svg",
+      "sha256": "b8d806bd82220c4227457791438d659aab54563e4885edc7bae85a21f261c815",
+      "asset_key": "debian-xterm"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/debian-xterm.svg",
+      "sha256": "b8d806bd82220c4227457791438d659aab54563e4885edc7bae85a21f261c815",
+      "asset_key": "debian-xterm"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-yad-settings.svg",
+      "sha256": "55a63ad2d983c28864e8d9bf60a4c95cb4b960c046867a7d10b08ddb3251471a",
+      "asset_key": "yad-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/yad-settings.svg",
+      "sha256": "55a63ad2d983c28864e8d9bf60a4c95cb4b960c046867a7d10b08ddb3251471a",
+      "asset_key": "yad-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-org.pwmt.zathura.svg",
+      "sha256": "052713b4886b89f60350a7980e2447d500f84a831d2653f3d781a6934164a2c7",
+      "asset_key": "org.pwmt.zathura"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/org.pwmt.zathura.svg",
+      "sha256": "052713b4886b89f60350a7980e2447d500f84a831d2653f3d781a6934164a2c7",
+      "asset_key": "org.pwmt.zathura"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-plank-applications.svg",
+      "sha256": "b5ba94a76ad8e72d8d96a14cf4aefcfbcfe544cc8b23fb1595fe6caa66f9a48d",
+      "asset_key": "plank-applications"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/plank-applications.svg",
+      "sha256": "b5ba94a76ad8e72d8d96a14cf4aefcfbcfe544cc8b23fb1595fe6caa66f9a48d",
+      "asset_key": "plank-applications"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/gnome-applications.svg",
+      "sha256": "b5ba94a76ad8e72d8d96a14cf4aefcfbcfe544cc8b23fb1595fe6caa66f9a48d",
+      "asset_key": "plank-applications"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-menu-all-applications.svg",
+      "sha256": "6520344911d7c26fa4363c4936c2cb29e6f70332f762a05c2a25c89eff829ba5",
+      "asset_key": "menu-all-applications"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/menu-all-applications.svg",
+      "sha256": "6520344911d7c26fa4363c4936c2cb29e6f70332f762a05c2a25c89eff829ba5",
+      "asset_key": "menu-all-applications"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/applications-other.svg",
+      "sha256": "6520344911d7c26fa4363c4936c2cb29e6f70332f762a05c2a25c89eff829ba5",
+      "asset_key": "menu-all-applications"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-menu-accessories.svg",
+      "sha256": "528890b67428634eb46b8a21e3eb6d9d85574b64c72913664102cd212e7bde21",
+      "asset_key": "menu-accessories"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/menu-accessories.svg",
+      "sha256": "528890b67428634eb46b8a21e3eb6d9d85574b64c72913664102cd212e7bde21",
+      "asset_key": "menu-accessories"
+    },
+    {
+      "file": "theme/MonochromeIcons/categories/scalable/applications-accessories.svg",
+      "sha256": "528890b67428634eb46b8a21e3eb6d9d85574b64c72913664102cd212e7bde21",
+      "asset_key": "menu-accessories"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-menu-brave-apps.svg",
+      "sha256": "c5a5f3b56047fa1fbdfe548dba3726bc000624cc52785100ec094af17e62f9bb",
+      "asset_key": "menu-brave-apps"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/menu-brave-apps.svg",
+      "sha256": "c5a5f3b56047fa1fbdfe548dba3726bc000624cc52785100ec094af17e62f9bb",
+      "asset_key": "menu-brave-apps"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-menu-development.svg",
+      "sha256": "6b025a3b86b6d9db0ec85458055fa37095ad8b930fbc4051d65be4c26b6fd38b",
+      "asset_key": "menu-development"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/menu-development.svg",
+      "sha256": "6b025a3b86b6d9db0ec85458055fa37095ad8b930fbc4051d65be4c26b6fd38b",
+      "asset_key": "menu-development"
+    },
+    {
+      "file": "theme/MonochromeIcons/categories/scalable/applications-development.svg",
+      "sha256": "6b025a3b86b6d9db0ec85458055fa37095ad8b930fbc4051d65be4c26b6fd38b",
+      "asset_key": "menu-development"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-menu-education.svg",
+      "sha256": "e5eba372ba2399b5a16f792878ed328d35153362b45a9d542a9d350b6d54107f",
+      "asset_key": "menu-education"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/menu-education.svg",
+      "sha256": "e5eba372ba2399b5a16f792878ed328d35153362b45a9d542a9d350b6d54107f",
+      "asset_key": "menu-education"
+    },
+    {
+      "file": "theme/MonochromeIcons/categories/scalable/applications-education.svg",
+      "sha256": "e5eba372ba2399b5a16f792878ed328d35153362b45a9d542a9d350b6d54107f",
+      "asset_key": "menu-education"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-menu-games.svg",
+      "sha256": "4593a50591bc3a3db05494c2e482619fc9e144f7397d33b4137d318216112ece",
+      "asset_key": "menu-games"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/menu-games.svg",
+      "sha256": "4593a50591bc3a3db05494c2e482619fc9e144f7397d33b4137d318216112ece",
+      "asset_key": "menu-games"
+    },
+    {
+      "file": "theme/MonochromeIcons/categories/scalable/applications-games.svg",
+      "sha256": "4593a50591bc3a3db05494c2e482619fc9e144f7397d33b4137d318216112ece",
+      "asset_key": "menu-games"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-menu-graphics.svg",
+      "sha256": "b3b0e616310cbd2cb31587641dcabb5b9c954934628c1bc3e40f54e27ab79be6",
+      "asset_key": "menu-graphics"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/menu-graphics.svg",
+      "sha256": "b3b0e616310cbd2cb31587641dcabb5b9c954934628c1bc3e40f54e27ab79be6",
+      "asset_key": "menu-graphics"
+    },
+    {
+      "file": "theme/MonochromeIcons/categories/scalable/applications-graphics.svg",
+      "sha256": "b3b0e616310cbd2cb31587641dcabb5b9c954934628c1bc3e40f54e27ab79be6",
+      "asset_key": "menu-graphics"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-menu-internet.svg",
+      "sha256": "28717e3d79edce0001111d057f95194283ca4a78e2b5cd5effd3bf4b495fe06e",
+      "asset_key": "menu-internet"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/menu-internet.svg",
+      "sha256": "28717e3d79edce0001111d057f95194283ca4a78e2b5cd5effd3bf4b495fe06e",
+      "asset_key": "menu-internet"
+    },
+    {
+      "file": "theme/MonochromeIcons/categories/scalable/applications-internet.svg",
+      "sha256": "28717e3d79edce0001111d057f95194283ca4a78e2b5cd5effd3bf4b495fe06e",
+      "asset_key": "menu-internet"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-menu-multimedia.svg",
+      "sha256": "110ceeedf1845c3c25f29a88df6627cfd12a344237a4b5ee7b6b861c331871bb",
+      "asset_key": "menu-multimedia"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/menu-multimedia.svg",
+      "sha256": "110ceeedf1845c3c25f29a88df6627cfd12a344237a4b5ee7b6b861c331871bb",
+      "asset_key": "menu-multimedia"
+    },
+    {
+      "file": "theme/MonochromeIcons/categories/scalable/applications-multimedia.svg",
+      "sha256": "110ceeedf1845c3c25f29a88df6627cfd12a344237a4b5ee7b6b861c331871bb",
+      "asset_key": "menu-multimedia"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-menu-mx-tools.svg",
+      "sha256": "5be84e6b37dfa3f3fa7dbc54a366ae018e527a5f3ca2bb69db7cee87a2c27750",
+      "asset_key": "menu-mx-tools"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/menu-mx-tools.svg",
+      "sha256": "5be84e6b37dfa3f3fa7dbc54a366ae018e527a5f3ca2bb69db7cee87a2c27750",
+      "asset_key": "menu-mx-tools"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-menu-office.svg",
+      "sha256": "385b8b0c9668a697031111451d2073371e614dc2d2f16482107ebc9ef6a10471",
+      "asset_key": "menu-office"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/menu-office.svg",
+      "sha256": "385b8b0c9668a697031111451d2073371e614dc2d2f16482107ebc9ef6a10471",
+      "asset_key": "menu-office"
+    },
+    {
+      "file": "theme/MonochromeIcons/categories/scalable/applications-office.svg",
+      "sha256": "385b8b0c9668a697031111451d2073371e614dc2d2f16482107ebc9ef6a10471",
+      "asset_key": "menu-office"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-menu-other.svg",
+      "sha256": "e07bf8bb6407796f866aa227e10875dde3292f74b04f0a8201880b4cb409bc33",
+      "asset_key": "menu-other"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/menu-other.svg",
+      "sha256": "e07bf8bb6407796f866aa227e10875dde3292f74b04f0a8201880b4cb409bc33",
+      "asset_key": "menu-other"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-menu-settings.svg",
+      "sha256": "bef9fb1fcd95062ae1527bae2b0eb03aeeea1f1cf64cd8dc62187a0c61a73003",
+      "asset_key": "menu-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/menu-settings.svg",
+      "sha256": "bef9fb1fcd95062ae1527bae2b0eb03aeeea1f1cf64cd8dc62187a0c61a73003",
+      "asset_key": "menu-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/categories/scalable/preferences-system.svg",
+      "sha256": "bef9fb1fcd95062ae1527bae2b0eb03aeeea1f1cf64cd8dc62187a0c61a73003",
+      "asset_key": "menu-settings"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-menu-science.svg",
+      "sha256": "360e6c1b59405540eacfed5b9b6db33821ff0e8a9173a9230c2566310eb46183",
+      "asset_key": "menu-science"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/menu-science.svg",
+      "sha256": "360e6c1b59405540eacfed5b9b6db33821ff0e8a9173a9230c2566310eb46183",
+      "asset_key": "menu-science"
+    },
+    {
+      "file": "theme/MonochromeIcons/categories/scalable/applications-science.svg",
+      "sha256": "360e6c1b59405540eacfed5b9b6db33821ff0e8a9173a9230c2566310eb46183",
+      "asset_key": "menu-science"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-menu-system.svg",
+      "sha256": "365bd35127d3c437e89920f8b4db8057917a4d8a65ffdef20826f1cd949bc7c9",
+      "asset_key": "menu-system"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/menu-system.svg",
+      "sha256": "365bd35127d3c437e89920f8b4db8057917a4d8a65ffdef20826f1cd949bc7c9",
+      "asset_key": "menu-system"
+    },
+    {
+      "file": "theme/MonochromeIcons/categories/scalable/applications-system.svg",
+      "sha256": "365bd35127d3c437e89920f8b4db8057917a4d8a65ffdef20826f1cd949bc7c9",
+      "asset_key": "menu-system"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-menu-mx-menu-button.svg",
+      "sha256": "2cbb4329f9e08d3338d3f5a1be44b86e06a95ea3fdffb7bed58bc63d3ed6378b",
+      "asset_key": "menu-mx-menu-button"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/menu-mx-menu-button.svg",
+      "sha256": "2cbb4329f9e08d3338d3f5a1be44b86e06a95ea3fdffb7bed58bc63d3ed6378b",
+      "asset_key": "menu-mx-menu-button"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfsm-logout.svg",
+      "sha256": "241343e2d196677494ef70cf6ca48b51a472cc750c62b8dfa9e59d88b38d9d6b",
+      "asset_key": "xfsm-logout"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfsm-logout.svg",
+      "sha256": "241343e2d196677494ef70cf6ca48b51a472cc750c62b8dfa9e59d88b38d9d6b",
+      "asset_key": "xfsm-logout"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfsm-reboot.svg",
+      "sha256": "7b5dbe0d4fcaae273ad74fccae2e6059a718f14ad3153c50c97d1fe037d8c4f6",
+      "asset_key": "xfsm-reboot"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfsm-reboot.svg",
+      "sha256": "7b5dbe0d4fcaae273ad74fccae2e6059a718f14ad3153c50c97d1fe037d8c4f6",
+      "asset_key": "xfsm-reboot"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfsm-shutdown.svg",
+      "sha256": "ce4c5d7dba5d944f6fc5175d89ec6f5884bfc372040cbdfa032e5aa0ae503816",
+      "asset_key": "xfsm-shutdown"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfsm-shutdown.svg",
+      "sha256": "ce4c5d7dba5d944f6fc5175d89ec6f5884bfc372040cbdfa032e5aa0ae503816",
+      "asset_key": "xfsm-shutdown"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfsm-suspend.svg",
+      "sha256": "a5cca5caf607a4d023555bf178085028ec099654fafb90cb58479fca90641c79",
+      "asset_key": "xfsm-suspend"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfsm-suspend.svg",
+      "sha256": "a5cca5caf607a4d023555bf178085028ec099654fafb90cb58479fca90641c79",
+      "asset_key": "xfsm-suspend"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfsm-switch-user.svg",
+      "sha256": "fc2d291549fbdda72b9bcafc67e6cab6965fa5010a74542d890afbcad2f6c68f",
+      "asset_key": "xfsm-switch-user"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfsm-switch-user.svg",
+      "sha256": "fc2d291549fbdda72b9bcafc67e6cab6965fa5010a74542d890afbcad2f6c68f",
+      "asset_key": "xfsm-switch-user"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-xfsm-hibernate.svg",
+      "sha256": "82a5a3ce95bc9fc4d765f3650614b3111d680d85ae405478ed444084ca4d84b4",
+      "asset_key": "xfsm-hibernate"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/xfsm-hibernate.svg",
+      "sha256": "82a5a3ce95bc9fc4d765f3650614b3111d680d85ae405478ed444084ca4d84b4",
+      "asset_key": "xfsm-hibernate"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/monochrome-org.xfce.panel.weather.svg",
+      "sha256": "f7d69ef0976ba100455cd30a0d8a220cc8d6e0bc0087fd0947aca8dbd152c08e",
+      "asset_key": "org.xfce.panel.weather"
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/scalable/org.xfce.panel.weather.svg",
+      "sha256": "f7d69ef0976ba100455cd30a0d8a220cc8d6e0bc0087fd0947aca8dbd152c08e",
+      "asset_key": "org.xfce.panel.weather"
+    },
+    {
+      "file": "theme/MonochromeIcons/index.theme",
+      "sha256": "a37fc855cb0d4b4d06d7ecfb680b2d799a407ae91150fb3883773bfa0a1b6cda",
+      "asset_key": null
+    }
+  ]
+}

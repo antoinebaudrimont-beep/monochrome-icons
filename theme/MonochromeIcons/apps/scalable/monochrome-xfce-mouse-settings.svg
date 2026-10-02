@@ -1,0 +1,8 @@
+
+<!-- Modified 2026-10-02 by Monochrome Icons contributors.
+SPDX-License-Identifier: GPL-3.0-only
+Credits: Vince Liuice and WhiteSur contributors
+Original artwork license: GPL-3.0-only
+Source and full notices: assets.json and ATTRIBUTION.md in monochrome-icons.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 64 64"><g transform="translate(1.6 1.6) scale(0.95)"><rect x="2" y="2" width="60" height="60" rx="12" fill="black" stroke="white" stroke-width="2.4" /><svg viewBox="17.65 7.4 29.075 49.2" width="44" height="44" x="10" y="10"><path fill="white" d="M31.053 11.45c-2.926.032-6.07.3-8.214 2.308-3.283 3.078-2.869 5.207-3.191 9.42-.658 8.598-.404 20.382 1.345 28.848.513 2.483 2.855 4.231 5.34 4.71 1.907.367 3.88.645 5.854.712 1.975-.067 3.947-.345 5.854-.713 2.485-.478 4.827-2.226 5.34-4.709 1.749-8.466 2.003-20.25 1.345-28.849-.322-4.212.092-6.34-3.19-9.418-2.144-2.01-5.29-2.277-8.215-2.309-.382-.004-.762 0-1.134 0s-.751-.004-1.134 0" color="#000" enable-background="accumulate" transform="translate(0 -2.448)" stroke="none" /><path fill="black" d="M32.187 16c.554 0 1 .55 1 1.232v3.536c0 .683-.446 1.232-1 1.232s-1-.55-1-1.232v-3.536c0-.682.446-1.232 1-1.232" stroke="none" /></svg></g></svg>

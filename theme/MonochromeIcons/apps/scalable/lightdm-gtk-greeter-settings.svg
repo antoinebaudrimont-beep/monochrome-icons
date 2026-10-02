@@ -1,0 +1,8 @@
+
+<!-- Modified 2026-10-02 by Monochrome Icons contributors.
+SPDX-License-Identifier: GPL-3.0-only
+Credits: Vince Liuice and WhiteSur contributors
+Original artwork license: GPL-3.0-only
+Source and full notices: assets.json and ATTRIBUTION.md in monochrome-icons.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 64 64"><g transform="translate(1.6 1.6) scale(0.95)"><rect x="2" y="2" width="60" height="60" rx="12" fill="black" stroke="white" stroke-width="2.4" /><svg viewBox="-0.4125000000000001 0.5718749999999999 24.825 22.85625" width="44" height="44" x="10" y="10"><rect x="1" y="2" width="22" height="20" rx="2" fill="black" stroke="white" stroke-width="1.6" /><svg viewBox="14.275 20.4 35.325 19.2" width="16" height="13" x="4" y="5"><g stroke-width="3.78" fill="white" stroke="none"><path fill="white" d="M18 28.002h28.003c1.104 0 1.996.892 1.996 1.996V36a2.003 2.003 0 0 1-1.996 1.996H18A2.003 2.003 0 0 1 15.997 36v-6.002A2 2 0 0 1 18 28.002" stroke="none" /><path fill="black" d="M23.995 33a3.001 3.001 0 1 1-6.003 0 3.001 3.001 0 0 1 6.003 0M32 33a3.001 3.001 0 1 1-6.003 0A3.001 3.001 0 0 1 32 33m7.998 0a3.001 3.001 0 1 1-6.003 0A3.001 3.001 0 0 1 40 33" stroke="none" /><path fill="white" d="M16.48 22h15.044a.48.48 0 0 1 .484.476v1.035a.484.484 0 0 1-.484.484H16.48a.484.484 0 0 1-.484-.484v-1.035a.48.48 0 0 1 .484-.477" stroke="none" /></g></svg></svg></g></svg>

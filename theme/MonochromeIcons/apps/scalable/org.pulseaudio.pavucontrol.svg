@@ -1,0 +1,8 @@
+
+<!-- Modified 2026-10-02 by Monochrome Icons contributors.
+SPDX-License-Identifier: GPL-3.0-only
+Credits: Vince Liuice and WhiteSur contributors
+Original artwork license: GPL-3.0-only
+Source and full notices: assets.json and ATTRIBUTION.md in monochrome-icons.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 64 64"><g transform="translate(1.6 1.6) scale(0.95)"><rect x="2" y="2" width="60" height="60" rx="12" fill="black" stroke="white" stroke-width="2.4" /><svg viewBox="4.1765625 1.276171875 22.812890625 25.71328125" width="44" height="44" x="10" y="10"><svg viewBox="13.025 12.275 24.575 40.075" width="20" height="23" x="1" y="1"><path fill="white" d="m30.085 3.656-2.442.482c-.391.084-.467.302-.458.647l.006 5.387c-.017.379-.059.587-.494.657-1.542.23-1.84.707-1.832 1.385.01.676.558 1.218 1.313 1.142.662-.074 1.156-.266 1.459-.879.117-.23.157-.71.128-1.197l-.006-4.285c.001-.3-.05-.467.348-.55l2.393-.482z" transform="translate(-79.345 .148)scale(3.7796)" stroke="none" /></svg><circle cx="20" cy="20" r="6.300000000000001" fill="black" /><polygon points="20.000,16.048 21.014,14.900 21.990,15.196 22.196,16.714 22.794,17.206 24.324,17.111 24.804,18.010 23.876,19.229 23.952,20.000 25.100,21.014 24.804,21.990 23.286,22.196 22.794,22.794 22.889,24.324 21.990,24.804 20.771,23.876 20.000,23.952 18.986,25.100 18.010,24.804 17.804,23.286 17.206,22.794 15.676,22.889 15.196,21.990 16.124,20.771 16.048,20.000 14.900,18.986 15.196,18.010 16.714,17.804 17.206,17.206 17.111,15.676 18.010,15.196 19.229,16.124" fill="white" /><circle cx="20" cy="20" r="1.7680000000000002" fill="black" /></svg></g></svg>

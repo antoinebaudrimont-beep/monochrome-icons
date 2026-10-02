@@ -1,0 +1,14 @@
+
+<!-- Modified 2026-10-02 by Monochrome Icons contributors.
+SPDX-License-Identifier: GPL-3.0-only
+Credits: 2017-2026 Adrian; icons: antechdesigns (https://www.opendesktop.org/member/455534/)
+Original artwork license: GPL-3.0-or-later
+Source and full notices: assets.json and ATTRIBUTION.md in monochrome-icons.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 64 64"><g transform="translate(1.6 1.6) scale(0.95)"><rect x="2" y="2" width="60" height="60" rx="12" fill="black" stroke="white" stroke-width="2.4" /><svg viewBox="6.4 5.15 51.2 33.45" width="44" height="44" x="10" y="10"><rect width="6" height="6" x="8" y="9" rx=".75" ry=".75" fill="white" stroke="none" />
+ <rect width="6" height="6" x="8" y="17" rx=".75" ry=".75" fill="white" stroke="none" />
+ <rect width="6" height="6" x="8" y="25" rx=".75" ry=".75" fill="white" stroke="none" />
+ <rect width="24" height="3" x="32" y="34" fill="white" stroke="none" />
+ <rect width="14" height="14" x="42" y="14" fill="white" stroke="none" />
+ <rect width="14" height="14" x="32" y="8" fill="white" stroke="black" stroke-width="2.4" />
+ </svg></g></svg>

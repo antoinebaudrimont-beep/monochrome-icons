@@ -1,0 +1,12 @@
+
+<!-- Modified 2026-10-02 by Monochrome Icons contributors.
+SPDX-License-Identifier: GPL-3.0-only
+Credits: Vince Liuice and WhiteSur contributors
+Original artwork license: GPL-3.0-only
+Source and full notices: assets.json and ATTRIBUTION.md in monochrome-icons.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 64 64"><g transform="translate(1.6 1.6) scale(0.95)"><rect x="2" y="2" width="60" height="60" rx="12" fill="black" stroke="white" stroke-width="2.4" /><svg viewBox="-0.59296875 1.53984375 25.1859375 23.762109375" width="44" height="44" x="10" y="10"><circle cx="12" cy="10" r="7" fill="none" stroke="white" stroke-width="1.5" />
+            <ellipse cx="12" cy="10" rx="3.4" ry="7" fill="none" stroke="white" stroke-width="1.2" />
+            <path d="M5 10h14" stroke="white" stroke-width="1.2" /><g><path d="M10 24C3 20 1 13 2 6" fill="none" stroke="white" stroke-width="1.2" stroke-linecap="round" />
+            <path d="M2 7C-1 8 0 11 2.3 11C5 9 4 7 2 7ZM2.7 12C.2 13 1 16 3.8 16C6 14 5 12 2.7 12Z             M4.4 17C2 18 3 21 6 21C8 19 7 17 4.4 17ZM7.5 21C6 23 8 25 11 24C11 22 10 21 7.5 21Z" fill="white" /></g><g transform="translate(24 0) scale(-1 1)"><path d="M10 24C3 20 1 13 2 6" fill="none" stroke="white" stroke-width="1.2" stroke-linecap="round" />
+            <path d="M2 7C-1 8 0 11 2.3 11C5 9 4 7 2 7ZM2.7 12C.2 13 1 16 3.8 16C6 14 5 12 2.7 12Z             M4.4 17C2 18 3 21 6 21C8 19 7 17 4.4 17ZM7.5 21C6 23 8 25 11 24C11 22 10 21 7.5 21Z" fill="white" /></g></svg></g></svg>

@@ -1,0 +1,2 @@
+# Preserve manifest-checked bytes, including on non-Linux checkouts.
+* -text
