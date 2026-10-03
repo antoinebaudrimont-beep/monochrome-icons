@@ -66,7 +66,12 @@ class InstallerTests(unittest.TestCase):
         self.assertEqual(app.stat().st_mode&0o777,0o755)
         package=json.loads((ROOT/'theme-files.json').read_text())
         theme=self.home/'.local/share/icons'/package['name']
-        self.assertEqual(len(list(theme.rglob('*.svg'))),len(package['files'])-1)
+        self.assertEqual(len(list(theme.rglob('*.png'))),len(package['files'])-1)
+        self.assertEqual(len(list(theme.rglob('*.svg'))),0)
+        for name,key in [('mx-tools','mx-tools'),('mx-viewer','mx-viewer'),('utilities-terminal','xfce4-terminal')]:
+            entry=next(e for e in package['files'] if e['file']==f'theme/MonochromeIcons/apps/48/{name}.png')
+            self.assertEqual(entry['asset_key'],key)
+            self.assertEqual(hashlib.sha256((theme/'apps/48'/f'{name}.png').read_bytes()).hexdigest(),entry['sha256'])
         self.assertEqual(len(list((self.home/'.config/xfce4/weather/icons/monochrome').rglob('*.png'))),114)
         # Additional files must survive restore; empty directories alone are removed.
         extra=theme/'user-note.txt';extra.write_text('Keep me')

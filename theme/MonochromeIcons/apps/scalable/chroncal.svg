@@ -1,8 +1,0 @@
-
-<!-- Modified 2026-10-02 by Monochrome Icons contributors.
-SPDX-License-Identifier: GPL-3.0-only
-Credits: 2026 Monochrome Icons contributors
-Original artwork license: GPL-3.0-only
-Source and full notices: assets.json and ATTRIBUTION.md in monochrome-icons.
--->
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 64 64"><g transform="translate(1.6 1.6) scale(0.95)"><rect x="2" y="2" width="60" height="60" rx="12" fill="black" stroke="white" stroke-width="2.4" /><text x="32" y="22" text-anchor="middle" font-family="Inter, sans-serif" font-size="16.8" font-weight="700" fill="white" letter-spacing=".6">FRI</text><text x="32" y="52.4" text-anchor="middle" font-family="Inter, sans-serif" font-size="29.76" font-weight="600" fill="white">2</text></g></svg>

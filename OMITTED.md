@@ -1,6 +1,6 @@
-# Omitted from v0.1.0
+# Omitted from v0.1.1
 
-These 36 catalog entries are **not distributed**, including in previews. Their artwork-specific source or redistribution terms need further review. Nothing was removed from the original desktop installation. Uncovered icons use the inherited theme.
+These 35 catalog entries are **not distributed**, including in previews. Their artwork-specific source or redistribution terms need further review. Nothing was removed from the original desktop installation. Uncovered icons use the inherited theme. MX Viewer, omitted in v0.1.0, is now included after artwork-specific source verification.
 
 - `brave-origin` — Brave Origin: Native vendor bitmap: modified-mark redistribution terms not verified.
 - `AliView` — AliView: Artwork-specific redistribution terms/source verification not completed.
@@ -27,7 +27,6 @@ These 36 catalog entries are **not distributed**, including in previews. Their a
 - `mx-updater` — MX Updater: Artwork-specific redistribution terms/source verification not completed.
 - `mx-updater-settings` — MX Updater Settings: Artwork-specific redistribution terms/source verification not completed.
 - `mx-user` — MX User Manager: Artwork-specific redistribution terms/source verification not completed.
-- `mx-viewer` — MX Viewer: Artwork-specific redistribution terms/source verification not completed.
 - `xfce4-notes` — Notes: Artwork-specific redistribution terms/source verification not completed.
 - `papirus-folder-colors` — Papirus Folder Colors: Artwork-specific redistribution terms/source verification not completed.
 - `peg-e` — Peg-E: Artwork-specific redistribution terms/source verification not completed.

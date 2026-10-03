@@ -95,6 +95,7 @@ Adaptations modified on 2026-10-02. Exact source revisions, hashes, notices and 
 | `mx-service-manager` | 2019-2026 Adrian | GPL-3.0-or-later |
 | `mx-system-sounds` | Vince Liuice and WhiteSur contributors | GPL-3.0-only |
 | `mx-tools` | 2014-2026 Adrian | GPL-3.0-or-later |
+| `mx-viewer` | 2014-2026 MX Authors and MX Linux; 2026 Monochrome Icons contributors (adaptation and frame) | GPL-3.0-or-later |
 | `mx-tweak` | 2016 Dolphin Oracle; MX Community <http://forum.mxlinux.org> | GPL-3.0-only |
 | `mx-usb-unmounter` | Vince Liuice and WhiteSur contributors | GPL-3.0-only |
 | `Help` | Vince Liuice and WhiteSur contributors | GPL-3.0-only |

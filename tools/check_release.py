@@ -74,6 +74,18 @@ def check(draft=False):
 
     if set((ROOT / "icons").glob("*.svg")) != expected:
         errors.append("Icon files differ from the catalog")
+    by_key = {a['key']:a for a in assets}
+    native_names = set()
+    for alias in catalog.get('native_aliases', []):
+        name,key = alias['name'],alias['asset_key']
+        if (not re.fullmatch(r'[A-Za-z0-9._-]+',name) or name in {'.','..'} or
+                re.fullmatch(r'brave-[a-p]{32}-.+',name) or name in native_names):
+            errors.append('Invalid, private or duplicate native alias: '+name)
+        native_names.add(name)
+        if key not in by_key or by_key[key]['review_status']!='cleared' or 'weather_assignment' in by_key[key]:
+            errors.append('Native alias uses excluded artwork: '+name)
+    if set(by_key) & {a['key'] for a in catalog.get('omitted',[])}:
+        errors.append('Omitted artwork appears in the distributed catalog')
     bundle_expected = set()
     for bundle in catalog.get('bundles', []):
         if bundle['type'] != 'xfce-weather-icon-theme' or bundle['sizes'] != [22,48,128]:
@@ -125,6 +137,13 @@ def check(draft=False):
         theme_root=ROOT/'theme'/package['name']
         theme_expected=set()
         by_key={a['key']:a for a in assets}
+        if package.get('version')!=catalog['version'] or package.get('native_aliases')!=catalog.get('native_aliases'):
+            errors.append('Theme version/native aliases differ from catalog')
+        if package.get('runtime_format')!='png' or package.get('sizes')!=[16,22,24,32,40,48,64,96,128,256]:
+            errors.append('Unexpected runtime format or sizes')
+        entries={entry['file']:entry for entry in package['files']}
+        if len(entries)!=len(package['files']):
+            errors.append('Duplicate theme manifest path')
         for entry in package['files']:
             path=ROOT/entry['file']
             if not path.is_relative_to(theme_root) or '..' in Path(entry['file']).parts:
@@ -136,8 +155,23 @@ def check(draft=False):
                 continue
             key=entry.get('asset_key')
             if key is not None:
-                if key not in by_key or entry['sha256']!=by_key[key]['sha256']:
-                    errors.append('Theme alias differs from catalog artwork: '+entry['file'])
+                if (key not in by_key or entry.get('source_sha256')!=by_key[key]['sha256'] or
+                        'weather_assignment' in by_key[key] or by_key[key]['review_status']!='cleared'):
+                    errors.append('Theme source differs from cleared catalog artwork: '+entry['file'])
+                size=entry.get('size')
+                data=path.read_bytes()
+                if (entry.get('format')!='png' or path.suffix!='.png' or str(size)!=path.parent.name or
+                        size not in package.get('sizes',[]) or len(data)<33 or
+                        data[:8]!=b'\x89PNG\r\n\x1a\n' or data[12:16]!=b'IHDR' or
+                        struct.unpack('>II',data[16:24])!=(size,size)):
+                    errors.append('Invalid runtime PNG: '+entry['file'])
+            elif path!=theme_root/'index.theme' or entry.get('format')!='index':
+                errors.append('Unattributed theme file: '+entry['file'])
+        for alias in catalog.get('native_aliases',[]):
+            for size in package.get('sizes',[]):
+                filename=f"theme/{package['name']}/apps/{size}/{alias['name']}.png"
+                if entries.get(filename,{}).get('asset_key')!=alias['asset_key']:
+                    errors.append('Native alias is missing or uses wrong drawing: '+filename)
         actual={p for p in (ROOT/'theme').rglob('*') if p.is_file()}
         if actual!=theme_expected:errors.append('Theme files differ from theme manifest')
         index=configparser.ConfigParser()
@@ -146,7 +180,10 @@ def check(draft=False):
             if index['Icon Theme']['Inherits'].split(',')!=package['inherits']:
                 errors.append('Theme inheritance differs from manifest')
             for folder in index['Icon Theme']['Directories'].split(','):
-                if index[folder]['Type']!='Scalable' or not (theme_root/folder).is_dir():
+                section=index[folder]
+                if (section['Type']!='Fixed' or not (theme_root/folder).is_dir() or
+                        int(section['Size']) not in package.get('sizes',[]) or
+                        folder not in {f'{context}/{size}' for context in ('apps','categories') for size in package.get('sizes',[])}):
                     errors.append('Theme directory is missing or invalid: '+folder)
         except (KeyError,configparser.Error):errors.append('Invalid index.theme')
         if not draft and package['selection']!='cleared-only':

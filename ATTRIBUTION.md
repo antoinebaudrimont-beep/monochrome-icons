@@ -1,6 +1,6 @@
 # Attribution and source review
 
-Adaptations were modified on 2026-10-02 by the Monochrome Icons contributors: monochrome palette, artwork simplification where noted, scaled placement, and black faces with white borders. Editable modified SVG source is distributed in `icons/`. The built theme uses byte-identical copies of that source.
+Adaptations were modified on 2026-10-02 by the Monochrome Icons contributors: monochrome palette, artwork simplification where noted, scaled placement, and black faces with white borders. Editable modified SVG source is distributed in `icons/`. v0.1.1 (2026-10-03) renders that source into toolkit-compatible PNGs; `theme-files.json` ties every PNG alias to its source asset and SVG checksum. The complete source and reproducible rendering tools accompany the built files.
 
 The machine-readable `assets.json` records each entry's copyright credit, applicable source license, source URL/revision or installed package/version, original-source hash, changes and required notices. These are records of the reviewed sources, not permission inferred from an application's software license alone. The review covers the included files, not every icon in the installed upstream themes.
 
@@ -31,6 +31,10 @@ Credits include Adrian, Paul David Callahan, Dolphin Oracle, the MEPIS/MX commun
 The MX menu logo comes from **mx-welcome-data**, not the application's separate package: Dolphin Oracle/MX Community, LGPL-3.0-or-later. Its [data copyright notice](notices/mx-welcome-data-copyright.txt), [LGPLv3 text](LICENSES/LGPL-3.0-or-later.txt), and GPLv3 text are included. The modified combined SVG is distributed under GPLv3 as permitted by LGPLv3 section 2(b); the original source grant and credits are retained in the catalog.
 
 MX Tour's separate Flaticon asset and other uncleared assets are [omitted](OMITTED.md).
+
+### MX Viewer added in v0.1.1
+
+MX Viewer's installed 24px native PNG was compared with [`mx-viewer.png` at revision `232fb26e7938aff5e5b6a5c5fca33088a76ad215`](https://github.com/AdrianTM/mx-viewer/blob/232fb26e7938aff5e5b6a5c5fca33088a76ad215/mx-viewer.png): every RGBA pixel matches, although PNG encoding differs. The installed package copyright record byte-matches that revision's `debian/copyright`, retained in [the full notice](notices/mx-viewer-copyright.txt). Its `Files: *` GPL-3+ grant covers this PNG. The separate Apache exception covers `readability/*` JavaScript only; no Readability code or artwork is copied into this theme. Original credit: 2014–2026 MX Authors and MX Linux. The monochrome document/image adaptation and frame were modified on 2026-10-02, with source notices added on 2026-10-03.
 
 ## Names and trademarks
 

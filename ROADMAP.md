@@ -1,8 +1,9 @@
 # Roadmap
 
-v0.1.0 intentionally publishes the reviewed icon overlay and optional Weather companion first. It is not a complete desktop/GTK theme.
+v0.1.1 publishes the reviewed icon overlay, GTK/Qt-compatible native-name mappings and optional Weather companion. It is not a complete desktop/GTK theme.
 
-- Review artwork-specific permissions/source provenance for the 36 omitted entries; only add them when verified.
+- Review artwork-specific permissions/source provenance for the 35 omitted entries; only add them when verified.
+- Expand MX Toolbox coverage only with cleared artwork; shared native names and hardcoded absolute icon paths still require application-specific handling.
 - Broaden portable application aliases and test on additional Linux distributions.
 - Add opt-in, reversible dynamic-calendar integration without changing existing calendar commands or timers.
 - Extend coverage to generic actions, devices, places, status and MIME types if requested; current fallbacks handle uncovered names.

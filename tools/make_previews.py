@@ -29,13 +29,13 @@ def font(size):
         return ImageFont.load_default(size=size)
 
 
-def sheet(assets, title, filename, cols=4):
+def sheet(assets, title, filename, version, cols=4):
     width, cell, top = cols * 240, 190, 94
     rows = (len(assets) + cols - 1) // cols
     result = Image.new('RGB', (width, top + rows * cell + 32), '#16181c')
     draw = ImageDraw.Draw(result)
     draw.text((28, 20), title, font=font(27), fill='white')
-    draw.text((28, 58), 'Monochrome Icons · v0.1.0 · distributed artwork', font=font(17), fill='#aeb6c2')
+    draw.text((28, 58), f'Monochrome Icons · v{version} · distributed artwork', font=font(17), fill='#aeb6c2')
     for index, asset in enumerate(assets):
         x, y = (index % cols) * 240, top + (index // cols) * cell
         icon = render(ROOT / asset['file'], 104)
@@ -62,9 +62,9 @@ def main():
     previews = []
     for start in range(0, len(apps), 32):
         page = start // 32 + 1
-        previews.append(sheet(apps[start:start+32], f'Applications · {page}', f'applications-{page:02}.png'))
-    previews.append(sheet(menu, 'Menus and session actions', 'menu-session.png'))
-    previews.append(sheet(weather, 'Weather · day, night and precipitation', 'weather.png'))
+        previews.append(sheet(apps[start:start+32], f'Applications · {page}', f'applications-{page:02}.png', catalog['version']))
+    previews.append(sheet(menu, 'Menus and session actions', 'menu-session.png', catalog['version']))
+    previews.append(sheet(weather, 'Weather · day, night and precipitation', 'weather.png', catalog['version']))
     catalog['previews'] = previews
     (ROOT / 'assets.json').write_text(json.dumps(catalog, indent=2, ensure_ascii=False) + '\n')
     print(f'Generated {len(previews)} clean sheets from {len(assets)} reviewed entries.')

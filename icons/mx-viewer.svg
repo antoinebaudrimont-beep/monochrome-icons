@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 64 64">
+<!-- MX Viewer source artwork: Copyright 2014-2026 MX Authors and MX Linux, GPL-3.0-or-later.
+     Adaptation and frame: Copyright 2026 Monochrome Icons contributors, GPL-3.0-only.
+     Modified 2026-10-02: white document/picture drawing on a black rounded-square face.
+     Exact source and retained notice: assets.json and notices/mx-viewer-copyright.txt. -->
+<g transform="translate(1.6 1.6) scale(0.95)"><rect x="2" y="2" width="60" height="60" rx="12" fill="black" stroke="white" stroke-width="2.4" /><svg viewBox="2.4 0.3843749999999999 20.23125 23.23125" width="44" height="44" x="10" y="10"><path d="M3 1h15l4 4v18H3Z" fill="white" />
+<path d="M18 1v4h4" fill="black" />
+<rect x="6" y="6" width="13" height="9" fill="black" />
+<circle cx="9" cy="8.5" r="1" fill="white" /><path d="m7 13 3-3 2 2 3-4 3 5Z" fill="white" />
+<path d="M6 18h13m-13 3h9" stroke="black" stroke-width="1.5" /></svg></g></svg>

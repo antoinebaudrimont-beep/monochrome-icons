@@ -1,7 +1,7 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "release_status": "ready",
-  "export_date": "2026-10-02",
+  "export_date": "2026-10-03",
   "assets": [
     {
       "key": "aerc",
@@ -2489,6 +2489,36 @@
       "desktop_ids": [
         "Help.desktop"
       ]
+    },
+    {
+      "key": "mx-viewer",
+      "name": "MX Viewer",
+      "file": "icons/mx-viewer.svg",
+      "sha256": "18e1bfe27bad1cec185f2d52cb6af08d7cd6d8245b17de6d6fde35c4f26233a0",
+      "changes": "Original viewer document, picture thumbnail and text rows; crisp white paper and image shapes, scaled on a black face/frame. Modified 2026-10-02; source notices added 2026-10-03.",
+      "modified_date": "2026-10-02",
+      "review_status": "cleared",
+      "copyright": "2014-2026 MX Authors and MX Linux; 2026 Monochrome Icons contributors (adaptation and frame)",
+      "license": "GPL-3.0-only",
+      "desktop_ids": [
+        "mx-viewer.desktop"
+      ],
+      "source": {
+        "project_url": "https://github.com/AdrianTM/mx-viewer",
+        "asset_reference": "mx-viewer.png",
+        "revision": "232fb26e7938aff5e5b6a5c5fca33088a76ad215",
+        "url": "https://raw.githubusercontent.com/AdrianTM/mx-viewer/232fb26e7938aff5e5b6a5c5fca33088a76ad215/mx-viewer.png",
+        "sha256": "c53c5641e6574a19d82b3b1e7adf9baedabff990725d9e05595cd17a5a95f88d",
+        "installed_sha256": "c8d6b61b61831e1d8998ecd3095e05923e348be20e49bc0e001a15fa707a85dd",
+        "package": "mx-viewer",
+        "package_version": "26.09.1",
+        "license": "GPL-3.0-or-later",
+        "verification": "All RGBA pixels of the installed 24px source match pinned upstream mx-viewer.png; PNG encoding differs. Installed copyright notice byte-matches pinned debian/copyright. Files:* GPL-3+ applies to this PNG; readability/* Apache exception is JavaScript not copied here.",
+        "notices": [
+          "LICENSE",
+          "notices/mx-viewer-copyright.txt"
+        ]
+      }
     },
     {
       "key": "mx-welcome",
@@ -5858,34 +5888,34 @@
   "previews": [
     {
       "file": "previews/applications-01.png",
-      "sha256": "172914f3546165b730a4b274416f5042349c42f9de3d50fabe1a5f08d9fb685f"
+      "sha256": "6a226c50e65c60c4b2e08695e1084063c3342f8cef82232fab94ca0149b75f13"
     },
     {
       "file": "previews/applications-02.png",
-      "sha256": "07be495729b08486efaefff024515d0f424fc564aa457a8919b7995f694cc94a"
+      "sha256": "4e7caf95d553c68b24bc9f3a30e0c43170e48aeb80b04f1d1a1868b996d5a227"
     },
     {
       "file": "previews/applications-03.png",
-      "sha256": "e2f8c2e614dc3d9ab02b15778706499cbb88497da4e835846ca35926eb08b100"
+      "sha256": "b36cb50892c6e9515181ed793358a9cbced0ae620e470453d0389383d955ca3d"
     },
     {
       "file": "previews/applications-04.png",
-      "sha256": "411f02338250def8958b699fcc1f7c45927ddd1b381faa6d0bed4cef1198054b"
+      "sha256": "18ab7803dab37d907ff30be5dcca361e3e55b2e419171b360e835beb22869511"
     },
     {
       "file": "previews/applications-05.png",
-      "sha256": "666971aa1a5c903d7aa99ce037beaa945cbf14333d7eb3528d611a78e2914201"
+      "sha256": "84571dd0f4a6ad4714ce8fcd9c59bff24cb8fc59efd4e7178eca7057ae7c04ca"
     },
     {
       "file": "previews/menu-session.png",
-      "sha256": "8664c58656621637da9ce1f161bd26693352880d6c8b5f6c867341890cd0c48f"
+      "sha256": "07a2bad7ee44595bfe01ae485c5884f4338fb891f46fc10ef9e6ec0bd4ed6497"
     },
     {
       "file": "previews/weather.png",
-      "sha256": "5070437991d45d268ba0be827a9436e49ee97e0582a67378e4140b8a794b90a8"
+      "sha256": "422170f0929c993fdc9ace9a6c05b0f69dcf860ef12f7e875688de5482dcaa83"
     }
   ],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "omitted": [
     {
       "key": "brave-origin",
@@ -6013,11 +6043,6 @@
       "reason": "Artwork-specific redistribution terms/source verification not completed."
     },
     {
-      "key": "mx-viewer",
-      "name": "MX Viewer",
-      "reason": "Artwork-specific redistribution terms/source verification not completed."
-    },
-    {
       "key": "xfce4-notes",
       "name": "Notes",
       "reason": "Artwork-specific redistribution terms/source verification not completed."
@@ -6066,6 +6091,508 @@
       "key": "user-installed-packages",
       "name": "User Installed Packages",
       "reason": "Artwork-specific redistribution terms/source verification not completed."
+    }
+  ],
+  "native_aliases": [
+    {
+      "name": "Alacritty",
+      "asset_key": "Alacritty"
+    },
+    {
+      "name": "asunder",
+      "asset_key": "asunder"
+    },
+    {
+      "name": "audio-speakers",
+      "asset_key": "mx-system-sounds"
+    },
+    {
+      "name": "blueman",
+      "asset_key": "blueman-manager"
+    },
+    {
+      "name": "blueman-device",
+      "asset_key": "blueman-adapters"
+    },
+    {
+      "name": "brave-browser",
+      "asset_key": "brave-browser"
+    },
+    {
+      "name": "brightness-systray",
+      "asset_key": "mx-tweak-systray"
+    },
+    {
+      "name": "btop",
+      "asset_key": "btop"
+    },
+    {
+      "name": "ca.desrt.dconf-editor",
+      "asset_key": "ca.desrt.dconf-editor"
+    },
+    {
+      "name": "camera-web",
+      "asset_key": "guvcview"
+    },
+    {
+      "name": "chatgpt",
+      "asset_key": "chatgpt"
+    },
+    {
+      "name": "com.github.jeromerobert.pdfarranger",
+      "asset_key": "com.github.jeromerobert.pdfarranger"
+    },
+    {
+      "name": "com.github.johnfactotum.Foliate",
+      "asset_key": "com.github.johnfactotum.Foliate"
+    },
+    {
+      "name": "deb-installer",
+      "asset_key": "deb-installer"
+    },
+    {
+      "name": "dialog-information",
+      "asset_key": "info"
+    },
+    {
+      "name": "engrampa",
+      "asset_key": "engrampa"
+    },
+    {
+      "name": "featherpad",
+      "asset_key": "featherpad"
+    },
+    {
+      "name": "formatusb",
+      "asset_key": "formatusb"
+    },
+    {
+      "name": "galculator",
+      "asset_key": "galculator"
+    },
+    {
+      "name": "geany",
+      "asset_key": "geany"
+    },
+    {
+      "name": "gimp",
+      "asset_key": "gimp"
+    },
+    {
+      "name": "gparted",
+      "asset_key": "gparted"
+    },
+    {
+      "name": "gufw",
+      "asset_key": "gufw"
+    },
+    {
+      "name": "help-browser",
+      "asset_key": "Help"
+    },
+    {
+      "name": "htop",
+      "asset_key": "htop"
+    },
+    {
+      "name": "java",
+      "asset_key": "Jar-Loader"
+    },
+    {
+      "name": "keepassxc",
+      "asset_key": "org.keepassxc.KeePassXC"
+    },
+    {
+      "name": "kitty",
+      "asset_key": "kitty"
+    },
+    {
+      "name": "libreoffice-base",
+      "asset_key": "libreoffice-base"
+    },
+    {
+      "name": "libreoffice-calc",
+      "asset_key": "libreoffice-calc"
+    },
+    {
+      "name": "libreoffice-draw",
+      "asset_key": "libreoffice-draw"
+    },
+    {
+      "name": "libreoffice-impress",
+      "asset_key": "libreoffice-impress"
+    },
+    {
+      "name": "libreoffice-math",
+      "asset_key": "libreoffice-math"
+    },
+    {
+      "name": "libreoffice-startcenter",
+      "asset_key": "libreoffice-startcenter"
+    },
+    {
+      "name": "libreoffice-writer",
+      "asset_key": "libreoffice-writer"
+    },
+    {
+      "name": "lightdm-gtk-greeter-settings",
+      "asset_key": "lightdm-gtk-greeter-settings"
+    },
+    {
+      "name": "menulibre",
+      "asset_key": "menulibre"
+    },
+    {
+      "name": "mini.xterm",
+      "asset_key": "debian-xterm"
+    },
+    {
+      "name": "mpv",
+      "asset_key": "mpv"
+    },
+    {
+      "name": "mugshot",
+      "asset_key": "org.bluesabre.Mugshot"
+    },
+    {
+      "name": "multimedia-player",
+      "asset_key": "mpv-radio-tray"
+    },
+    {
+      "name": "multimedia-volume-control",
+      "asset_key": "org.pulseaudio.pavucontrol"
+    },
+    {
+      "name": "mx-boot-repair",
+      "asset_key": "mx-boot-repair"
+    },
+    {
+      "name": "mx-cleanup",
+      "asset_key": "mx-cleanup"
+    },
+    {
+      "name": "mx-conky",
+      "asset_key": "mx-conky"
+    },
+    {
+      "name": "mx-packageinstaller",
+      "asset_key": "mx-packageinstaller"
+    },
+    {
+      "name": "mx-repo-manager",
+      "asset_key": "mx-repo-manager"
+    },
+    {
+      "name": "mx-samba-config",
+      "asset_key": "mx-samba-config"
+    },
+    {
+      "name": "mx-select-sound",
+      "asset_key": "mx-select-sound"
+    },
+    {
+      "name": "mx-service-manager",
+      "asset_key": "mx-service-manager"
+    },
+    {
+      "name": "mx-tools",
+      "asset_key": "mx-tools"
+    },
+    {
+      "name": "mx-tweak",
+      "asset_key": "mx-tweak"
+    },
+    {
+      "name": "mx-usb-unmounter",
+      "asset_key": "mx-usb-unmounter"
+    },
+    {
+      "name": "mx-viewer",
+      "asset_key": "mx-viewer"
+    },
+    {
+      "name": "mx-welcome",
+      "asset_key": "mx-welcome"
+    },
+    {
+      "name": "nvidia-ddm-mx",
+      "asset_key": "ddm-nvidia"
+    },
+    {
+      "name": "onboard",
+      "asset_key": "onboard"
+    },
+    {
+      "name": "org.gnome.DiskUtility",
+      "asset_key": "org.gnome.DiskUtility"
+    },
+    {
+      "name": "org.gnome.Mahjongg",
+      "asset_key": "org.gnome.Mahjongg"
+    },
+    {
+      "name": "org.gnome.Shotwell",
+      "asset_key": "org.gnome.Shotwell"
+    },
+    {
+      "name": "org.gnome.SimpleScan",
+      "asset_key": "simple-scan"
+    },
+    {
+      "name": "org.gnome.SwellFoop",
+      "asset_key": "org.gnome.SwellFoop"
+    },
+    {
+      "name": "org.gnome.baobab",
+      "asset_key": "org.gnome.baobab"
+    },
+    {
+      "name": "org.gnome.seahorse.Application",
+      "asset_key": "org.gnome.seahorse.Application"
+    },
+    {
+      "name": "org.gtkhash.gtkhash",
+      "asset_key": "org.gtkhash.gtkhash"
+    },
+    {
+      "name": "org.inkscape.Inkscape",
+      "asset_key": "org.inkscape.Inkscape"
+    },
+    {
+      "name": "org.nomacs.ImageLounge",
+      "asset_key": "org.nomacs.ImageLounge"
+    },
+    {
+      "name": "org.pwmt.zathura",
+      "asset_key": "org.pwmt.zathura"
+    },
+    {
+      "name": "org.xfce.ScreenSaver",
+      "asset_key": "xfce4-screensaver-preferences"
+    },
+    {
+      "name": "org.xfce.about",
+      "asset_key": "xfce4-about"
+    },
+    {
+      "name": "org.xfce.appfinder",
+      "asset_key": "xfce4-appfinder"
+    },
+    {
+      "name": "org.xfce.catfish",
+      "asset_key": "org.xfce.Catfish"
+    },
+    {
+      "name": "org.xfce.filemanager",
+      "asset_key": "thunar"
+    },
+    {
+      "name": "org.xfce.mailreader",
+      "asset_key": "xfce4-mail-reader"
+    },
+    {
+      "name": "org.xfce.notification",
+      "asset_key": "xfce4-notifyd-config"
+    },
+    {
+      "name": "org.xfce.orage",
+      "asset_key": "org.xfce.orage"
+    },
+    {
+      "name": "org.xfce.panel",
+      "asset_key": "panel-preferences"
+    },
+    {
+      "name": "org.xfce.powermanager",
+      "asset_key": "xfce4-power-manager-settings"
+    },
+    {
+      "name": "org.xfce.screenshooter",
+      "asset_key": "xfce4-screenshooter"
+    },
+    {
+      "name": "org.xfce.session",
+      "asset_key": "xfce-session-settings"
+    },
+    {
+      "name": "org.xfce.settings.accessibility",
+      "asset_key": "xfce4-accessibility-settings"
+    },
+    {
+      "name": "org.xfce.settings.appearance",
+      "asset_key": "xfce-ui-settings"
+    },
+    {
+      "name": "org.xfce.settings.color",
+      "asset_key": "xfce4-color-settings"
+    },
+    {
+      "name": "org.xfce.settings.default-applications",
+      "asset_key": "xfce4-mime-settings"
+    },
+    {
+      "name": "org.xfce.settings.display",
+      "asset_key": "xfce-display-settings"
+    },
+    {
+      "name": "org.xfce.settings.editor",
+      "asset_key": "xfce4-settings-editor"
+    },
+    {
+      "name": "org.xfce.settings.keyboard",
+      "asset_key": "xfce-keyboard-settings"
+    },
+    {
+      "name": "org.xfce.settings.manager",
+      "asset_key": "xfce-settings-manager"
+    },
+    {
+      "name": "org.xfce.settings.mouse",
+      "asset_key": "xfce-mouse-settings"
+    },
+    {
+      "name": "org.xfce.taskmanager",
+      "asset_key": "xfce4-taskmanager"
+    },
+    {
+      "name": "org.xfce.terminal",
+      "asset_key": "xfce4-terminal"
+    },
+    {
+      "name": "org.xfce.terminal-settings",
+      "asset_key": "xfce4-terminal-settings"
+    },
+    {
+      "name": "org.xfce.terminalemulator",
+      "asset_key": "xfce4-terminal-emulator"
+    },
+    {
+      "name": "org.xfce.thunar",
+      "asset_key": "thunar"
+    },
+    {
+      "name": "org.xfce.volman",
+      "asset_key": "thunar-volman-settings"
+    },
+    {
+      "name": "org.xfce.webbrowser",
+      "asset_key": "xfce4-web-browser"
+    },
+    {
+      "name": "org.xfce.workspaces",
+      "asset_key": "xfce-workspaces-settings"
+    },
+    {
+      "name": "org.xfce.xfdesktop",
+      "asset_key": "xfce-backdrop-settings"
+    },
+    {
+      "name": "org.xfce.xfwm4",
+      "asset_key": "xfce-wm-settings"
+    },
+    {
+      "name": "org.xfce.xfwm4-tweaks",
+      "asset_key": "xfce-wmtweaks-settings"
+    },
+    {
+      "name": "plank",
+      "asset_key": "plank"
+    },
+    {
+      "name": "preferences-desktop",
+      "asset_key": "mx-remastercc"
+    },
+    {
+      "name": "preferences-desktop-locale",
+      "asset_key": "mx-locale"
+    },
+    {
+      "name": "preferences-system",
+      "asset_key": "menu-settings"
+    },
+    {
+      "name": "preferences-system-network",
+      "asset_key": "nm-connection-editor"
+    },
+    {
+      "name": "printer",
+      "asset_key": "system-config-printer"
+    },
+    {
+      "name": "qpdfview",
+      "asset_key": "qpdfview"
+    },
+    {
+      "name": "redshift",
+      "asset_key": "redshift-gtk"
+    },
+    {
+      "name": "spotify",
+      "asset_key": "spotify-web"
+    },
+    {
+      "name": "stock_xfburn",
+      "asset_key": "xfburn"
+    },
+    {
+      "name": "strawberry",
+      "asset_key": "org.strawberrymusicplayer.strawberry"
+    },
+    {
+      "name": "synaptic",
+      "asset_key": "synaptic"
+    },
+    {
+      "name": "texstudio",
+      "asset_key": "texstudio"
+    },
+    {
+      "name": "thunderbird",
+      "asset_key": "thunderbird"
+    },
+    {
+      "name": "timeshift",
+      "asset_key": "timeshift-gtk"
+    },
+    {
+      "name": "transmission",
+      "asset_key": "transmission-qt"
+    },
+    {
+      "name": "uefi-manager",
+      "asset_key": "uefi-manager"
+    },
+    {
+      "name": "utilities-terminal",
+      "asset_key": "xfce4-terminal"
+    },
+    {
+      "name": "vlc",
+      "asset_key": "vlc"
+    },
+    {
+      "name": "vscode",
+      "asset_key": "com.microsoft.VSCode"
+    },
+    {
+      "name": "xfce-sensors",
+      "asset_key": "xfce4-sensors"
+    },
+    {
+      "name": "xfce4-clipman-plugin",
+      "asset_key": "xfce4-clipman"
+    },
+    {
+      "name": "xfsm-logout",
+      "asset_key": "xfsm-logout"
+    },
+    {
+      "name": "yad",
+      "asset_key": "yad-icon-browser"
+    },
+    {
+      "name": "zoom-best-fit",
+      "asset_key": "magnus"
     }
   ]
 }

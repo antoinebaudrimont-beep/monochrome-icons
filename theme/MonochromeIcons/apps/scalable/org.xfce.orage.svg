@@ -1,8 +1,0 @@
-
-<!-- Modified 2026-10-02 by Monochrome Icons contributors.
-SPDX-License-Identifier: GPL-3.0-only
-Credits: Vince Liuice and WhiteSur contributors
-Original artwork license: GPL-3.0-only
-Source and full notices: assets.json and ATTRIBUTION.md in monochrome-icons.
--->
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 64 64"><g transform="translate(1.6 1.6) scale(0.95)"><rect x="2" y="2" width="60" height="60" rx="12" fill="black" stroke="white" stroke-width="2.4" /><svg viewBox="13.4 13.4 37.2 37.2" width="44" height="44" x="10" y="10"><rect width="34" height="34" x="15" y="15" fill="white" rx="0" ry="0" stroke="none" /><path fill="black" d="M22.523 40.759c-1.218-.83-2.062-2.042-2.523-3.644l2.829-1.175q.385 1.479 1.344 2.292c.636.543 1.41.81 2.315.81q1.388 0 2.384-.85.997-.853.999-2.166 0-1.344-1.052-2.194t-2.632-.85h-1.634v-2.823h1.466q1.357 0 2.287-.74.93-.737.929-2.025 0-1.145-.831-1.828-.83-.685-2.107-.686-1.248-.001-1.981.67a3.9 3.9 0 0 0-1.068 1.647l-2.8-1.175c.372-1.06 1.052-1.997 2.05-2.806q1.5-1.215 3.823-1.216 1.718-.001 3.09.67 1.37.672 2.147 1.857.775 1.188.774 2.666 0 1.508-.721 2.555c-.721 1.047-1.072 1.233-1.773 1.607v.168a5.4 5.4 0 0 1 2.274 1.787q.887 1.202.888 2.876c.001 1.674-.28 2.116-.843 2.991q-.846 1.315-2.327 2.067c-.99.501-2.103.756-3.338.756-1.43.004-2.75-.411-3.969-1.241M39.819 26.92l-3.207 2.132L35 26.816 40.783 23H43v18h-3.18z" stroke="none" /></svg></g></svg>
