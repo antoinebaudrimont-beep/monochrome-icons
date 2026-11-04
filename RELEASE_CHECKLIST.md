@@ -7,7 +7,8 @@
 - [x] Reversible local icon-theme, application-menu and Plank integration passes dry-run, isolated restore testing and combined live rollback preflight.
 - [x] Draft build, installer, integrity and GTK/Qt pixel tests pass after the final installed-ID audit.
 - [ ] User reviews the pull request and explicitly approves merge.
-- [ ] User visually checks the four replacement dock pins and their running app icons on the physical desktop.
+- [x] User visually checks the four replacement dock pins and their running app icons on the physical desktop.
+- [x] Original-design tray adapter preserves the alpha mask, forwards menus and passes user visual/menu confirmation.
 
 ## v0.1.1 release scope (completed)
 

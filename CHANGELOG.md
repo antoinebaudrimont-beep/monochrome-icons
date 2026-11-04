@@ -8,6 +8,8 @@
 - Add an isolated installer regression test for all seven ArtCraft launcher mappings.
 - Add an ArtCraft-only overlay mode that inherits the active theme and preserves unrelated artwork, with isolated conflict/restore tests.
 - Verify actual package identities, six live X11 window classes, ten document import/round-trip samples and live GTK icon resolution; document the embedded tray bitmap limitation.
+- Add an optional runtime tray adapter that preserves the original ArtCraft A silhouette in white, forwards clicks/menus and restores the original item when stopped. No vendor artwork is distributed or patched; alpha preservation and bounded bitmap handling have isolated tests.
+- Document refreshing Plank after obsolete package removal; the user confirmed both dock and tray appearance/functionality on the target desktop.
 
 This remains a draft until the actual installed launchers, running-window matching, file compatibility and local rollback are verified on the target MX Linux desktop. Nothing is ready to merge without explicit user approval.
 

@@ -35,9 +35,17 @@ The overlay only changes theme selection and the seven matching launcher icon fi
 
 ## Desktop and tray limits
 
-Absolute `Icon=` paths bypass theme lookup; use the backed-up per-user launcher mappings to replace those fields. A Plank pin may itself refer to an absolute launcher URI; replacing an app requires updating that URI to the replacement's real desktop file while preserving the dock order. Native icon aliases cover consumers that resolve system launchers for running windows. Verify matching on the target desktop; metadata and toolkit lookup checks are not a visual inspection of the dock.
+Absolute `Icon=` paths bypass theme lookup; use the backed-up per-user launcher mappings to replace those fields. A Plank pin may itself refer to an absolute launcher URI; replacing an app requires updating that URI to the replacement's real desktop file while preserving the dock order. Plank may drop old apps from its active pin list during package removal even after the saved launcher files have changed. Validate the live pin list after removal, restore the affected positions and refresh Plank if needed. Native icon aliases cover consumers that resolve system launchers for running windows. On the target desktop, the user confirmed the four replacement pins and running icons after that refresh.
 
-ArtCraft Launcher 0.14.0's live StatusNotifierItem reports empty `IconName` and `IconThemePath` properties and a 64×64 embedded `IconPixmap`. A desktop icon-theme override cannot safely replace that bitmap. No binary patch or vendor artwork modification is included.
+ArtCraft Launcher 0.14.0's live StatusNotifierItem reports empty `IconName` and `IconThemePath` properties and a 64×64 embedded `IconPixmap`. A desktop icon-theme override cannot replace that bitmap.
+
+### Optional original-design tray adapter
+
+`tools/artcraft_tray.py` offers a separate runtime solution for Xfce. It reads the running launcher's own bitmap, retains every alpha/edge pixel in the original A design, and supplies white foreground pixels to a replacement StatusNotifierItem. It forwards the launcher's click methods, menu queries/actions and menu signals. Only the duplicate original ArtCraft tray item is hidden; the adapter unhides it when stopped. The user confirmed the original design in white and working menu behavior on the target desktop.
+
+The adapter requires Python's GObject/GIO bindings and a live Xfce session. Identify the actual notification-area plugin with `xfconf-query -c xfce4-panel -lv` before running it with `--plugin /plugins/plugin-N`. It refuses a path that is not a systray plugin. It does not start ArtCraft. Discovery follows tray signals, with a 30-second fallback retry; when ArtCraft is closed, its replacement item becomes passive. A user-session autostart entry can run the adapter for future launcher sessions. Stop the adapter before restoring/removing its startup entry, so the original colored item is unhidden.
+
+No ArtCraft trademark artwork is included in this repository or written back to the application. The recoloring happens only in memory from the user's running copy. No binary patch is made. The original-design tray adapter is distinct from the seven original functional app/dock drawings.
 
 ## Compatibility checks and boundaries
 
