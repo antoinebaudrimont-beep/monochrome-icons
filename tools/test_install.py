@@ -57,6 +57,53 @@ class InstallerTests(unittest.TestCase):
         self.restore()
         self.assertEqual(app.read_bytes(),FIXTURE)
 
+    def test_artcraft_launchers_keep_commands_and_receive_native_icons(self):
+        launchers={
+            'ai.storyteller.artcraft-launcher.desktop':('artcraft-launcher','artcraft-launcher'),
+            'ai.storyteller.photocraft.desktop':('photocraft','photocraft %F'),
+            'ai.storyteller.vectorcraft.desktop':('vectorcraft','vectorcraft %F'),
+            'ai.storyteller.wordcraft.desktop':('wordcraft','wordcraft %F'),
+            'ai.storyteller.gridcraft.desktop':('gridcraft','gridcraft %F'),
+            'ai.storyteller.deckcraft.desktop':('deckcraft','deckcraft %F'),
+            'ai.storyteller.pdfcraft.desktop':('pdfcraft','pdfcraft %U'),
+        }
+        originals={}
+        directory=self.home/'.local/share/applications';directory.mkdir(parents=True)
+        for desktop_id,(key,command) in launchers.items():
+            original=(f'[Desktop Entry]\nName={key}\nExec={command}\n'
+                      f'Icon=ai.storyteller.{key}\nTerminal=false\n').encode()
+            originals[desktop_id]=original
+            (directory/desktop_id).write_bytes(original)
+        self.run_install('--allow-draft','--known-apps')
+        for desktop_id,(key,command) in launchers.items():
+            changed=(directory/desktop_id).read_bytes()
+            self.assertEqual(changed,installer.icon_only(originals[desktop_id],'monochrome-'+key))
+            self.assertIn(f'Exec={command}\n'.encode(),changed)
+        self.restore()
+        for desktop_id,original in originals.items():
+            self.assertEqual((directory/desktop_id).read_bytes(),original)
+
+    def test_artcraft_overlay_preserves_base_theme_and_restores(self):
+        base=self.home/'.local/share/icons/ExistingTheme/index.theme'
+        base.parent.mkdir(parents=True);base.write_bytes(b'keep this theme')
+        self.run_install('--allow-draft','--artcraft-overlay','--base-theme','ExistingTheme')
+        theme=base.parent.parent/'ArtCraftMonochrome'
+        self.assertIn('Inherits=ExistingTheme,hicolor',(theme/'index.theme').read_text())
+        pngs=list(theme.rglob('*.png'))
+        self.assertEqual(len(pngs),210)
+        self.assertTrue((theme/'apps/48/ai.storyteller.pdfcraft.png').is_file())
+        self.assertFalse((theme/'apps/48/gimp.png').exists())
+        self.assertEqual(base.read_bytes(),b'keep this theme')
+        self.restore()
+        self.assertEqual(base.read_bytes(),b'keep this theme')
+        self.assertFalse(theme.exists())
+
+    def test_artcraft_overlay_rejects_unrelated_or_recursive_options(self):
+        for options in [('--menu',),('--weather',),('--base-theme','ArtCraftMonochrome'),
+                        ('--map','aerc.desktop=aerc')]:
+            self.run_install('--allow-draft','--artcraft-overlay','--base-theme','ExistingTheme',*options,expected=1)
+        self.assertEqual(list(self.home.iterdir()),[])
+
     def test_install_restore_preserves_launcher_and_user_files(self):
         app=self.home/'.local/share/applications/aerc.desktop'
         app.parent.mkdir(parents=True);app.write_bytes(FIXTURE);app.chmod(0o755)

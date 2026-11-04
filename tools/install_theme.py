@@ -21,6 +21,7 @@ import uuid
 
 ROOT=Path(__file__).resolve().parents[1]
 SAFE=re.compile(r'[A-Za-z0-9._-]+')
+ARTCRAFT_KEYS={'artcraft-launcher','photocraft','vectorcraft','wordcraft','gridcraft','deckcraft','pdfcraft'}
 
 
 def digest(data):
@@ -86,7 +87,18 @@ def install(args):
         raise ValueError('This is an unreleased draft; only local testing with --allow-draft is permitted.')
     if args.activate and args.home is not None:
         raise ValueError('--activate is not allowed with an isolated --home')
-    name=package['name']
+    overlay=args.artcraft_overlay
+    if overlay and (args.weather or args.menu):
+        raise ValueError('The ArtCraft-only overlay cannot change weather or menu category artwork')
+    base=args.base_theme
+    if base and not overlay:raise ValueError('--base-theme requires --artcraft-overlay')
+    if overlay:
+        if base is None:
+            if args.home is not None:raise ValueError('An isolated overlay requires --base-theme')
+            base=setting()
+        if not SAFE.fullmatch(base) or base=='ArtCraftMonochrome':raise ValueError('Invalid overlay base theme')
+        if args.activate and setting()!=base:raise ValueError('Base theme differs from active theme')
+    name='ArtCraftMonochrome' if overlay else package['name']
     if not SAFE.fullmatch(name):raise ValueError('Invalid theme name')
     home,data,config,state=paths(args.home)
     theme=data/'icons'/name
@@ -94,14 +106,24 @@ def install(args):
     if theme.exists() or theme.is_symlink():raise ValueError('Theme already exists; restore the prior managed install before updating.')
     planned=[]
     for item in package['files']:
+        if overlay and item.get('asset_key') not in ARTCRAFT_KEYS and item.get('format')!='index':continue
         source=ROOT/item['file']
-        prefix='theme/'+name+'/'
+        prefix='theme/'+package['name']+'/'
         if not item['file'].startswith(prefix):raise ValueError('Invalid theme source')
         relative=Path(item['file'].removeprefix(prefix))
         if relative.is_absolute() or '..' in relative.parts:raise ValueError('Unsafe theme path')
         content=source.read_bytes()
         if source.is_symlink() or digest(content)!=item['sha256']:raise ValueError('Theme file changed: '+item['file'])
+        if overlay and item.get('format')=='index':
+            folders=[f'apps/{size}' for size in package['sizes']]
+            content=('[Icon Theme]\nName=ArtCraft Monochrome\n'
+                     'Comment=ArtCraft-only icons; other artwork inherits the previous theme.\n'
+                     f'Inherits={base},hicolor\nDirectories='+','.join(folders)+'\n')
+            for folder,size in zip(folders,package['sizes']):
+                content+=f'\n[{folder}]\nSize={size}\nType=Fixed\nContext=Applications\n'
+            content=content.encode()
         planned.append((theme/relative,content))
+    theme_count=len(planned)
     if args.weather:
         if weather.exists() or weather.is_symlink():raise ValueError('Weather theme already exists; refusing to overwrite it.')
         for bundle in catalog.get('bundles',[]):
@@ -121,6 +143,7 @@ def install(args):
     explicit={r.partition('=')[0] for r in requests}
     if args.known_apps:
         for asset in catalog['assets']:
+            if overlay and asset['key'] not in ARTCRAFT_KEYS:continue
             for ident in asset.get('desktop_ids',[]):
                 if ident not in explicit and any((p/ident).is_file() for p in directories):
                     requests.append(ident+'='+asset['key'])
@@ -128,6 +151,7 @@ def install(args):
         ident,separator,key=request.partition('=')
         if not separator or not SAFE.fullmatch(ident) or not ident.endswith('.desktop') or key not in keys:
             raise ValueError('Mappings must be an existing app.desktop=asset-key')
+        if overlay and key not in ARTCRAFT_KEYS:raise ValueError('Overlay mappings must use ArtCraft artwork')
         if ident in seen:raise ValueError('Duplicate launcher mapping')
         seen.add(ident)
         source=next((p/ident for p in directories if (p/ident).is_file()),None)
@@ -149,7 +173,7 @@ def install(args):
         if not target.resolve().is_relative_to(permitted) or target.is_symlink():
             raise ValueError('Destination resolves outside the selected XDG root')
     previous=setting() if args.activate else None
-    print(json.dumps({'theme':name,'theme_files':len(package['files']),
+    print(json.dumps({'theme':name,'theme_files':theme_count,'inherits':base if overlay else package['inherits'],
                       'weather':args.weather,'launcher_mappings':len(requests),'menu':args.menu,
                       'activate':args.activate,'dry_run':args.dry_run}))
     if args.dry_run:return
@@ -223,6 +247,8 @@ if __name__=='__main__':
     first.add_argument('--allow-draft',action='store_true')
     first.add_argument('--dry-run',action='store_true')
     first.add_argument('--activate',action='store_true',help='Change only Xfce icon theme')
+    first.add_argument('--artcraft-overlay',action='store_true',help='Install only ArtCraft icons, inheriting the current theme without replacing its artwork')
+    first.add_argument('--base-theme',help='Explicit inherited theme for the ArtCraft overlay; required with --home')
     first.add_argument('--weather',action='store_true',help='Install optional Weather PNG companion')
     first.add_argument('--known-apps',action='store_true',help='Map installed apps with cataloged portable desktop IDs; excludes dynamic calendars and profile-specific web apps')
     first.add_argument('--menu',action='store_true',help='Map matching installed menu category files, preserving their other fields')

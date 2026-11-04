@@ -4,11 +4,15 @@ White drawings on black faces, with a consistent rounded-square outline. Made fo
 
 ![Application sample](previews/applications-01.png)
 
-## v0.1.1
+## v0.2.0 development branch
 
-206 reviewed SVG catalog entries: 146 application/dock entries, 16 menu/panel entries, 6 session actions and 38 weather conditions. Counts include purposeful aliases, not 206 unique drawings. The ready-to-install theme contains 4,120 PNGs at ten sizes (16/22/24/32/40/48/64/96/128/256), plus its index. The optional Xfce Weather companion remains 114 PNGs at 22, 48 and 128 pixels.
+213 reviewed SVG catalog entries: 153 application/dock entries, 16 menu/panel entries, 6 session actions and 38 weather conditions. Counts include purposeful aliases, not 213 unique drawings. The development theme contains 4,330 PNGs at ten sizes (16/22/24/32/40/48/64/96/128/256), plus its index. The optional Xfce Weather companion remains 114 PNGs at 22, 48 and 128 pixels.
 
-This release adds **125 portable native icon-name mappings**, including MX Tools and the newly source-verified MX Viewer. These names let a running app keep its monochrome icon when Plank resolves its system launcher, and let MX Toolbox find supported icons without modifying system launchers. Runtime PNGs avoid Qt's incomplete rendering of the nested SVG artwork; editable SVG sources remain included. Generic terminal requests use a terminal drawing, not the aerc mail mark.
+This branch adds original monochrome drawings for ArtCraft Launcher, PhotoCraft, VectorCraft, WordCraft, GridCraft, DeckCraft and PdfCraft. It maps the published Linux icon names (`ai.storyteller.*`) and desktop IDs without changing their `Exec`, MIME or window-class fields. The seven drawings use functional suite, image, vector, document, spreadsheet, presentation and PDF-inspection symbols; they do not copy ArtCraft vendor marks.
+
+To add only these seven apps while preserving a customized desktop, use the [ArtCraft-only overlay](ARTCRAFT.md). Installed package/launcher evidence, compatibility boundaries and the embedded-tray-icon limitation are documented there.
+
+The theme now contains **132 portable native icon-name mappings**, including the seven ArtCraft names, MX Tools and the source-verified MX Viewer. These names let a running app keep its monochrome icon when Plank resolves its system launcher, and let MX Toolbox find supported icons without modifying system launchers. Runtime PNGs avoid Qt's incomplete rendering of the nested SVG artwork; editable SVG sources remain included. Generic terminal requests use a terminal drawing, not the aerc mail mark.
 
 This is a **WhiteSur-compatible icon-theme overlay**, not a GTK or window-manager theme. It inherits `WhiteSur-dark,hicolor`; icons outside its coverage fall back to those themes. Install WhiteSur-dark separately for the intended fallback appearance. The existing pink/dark GTK styling is independent and is not changed by this package.
 

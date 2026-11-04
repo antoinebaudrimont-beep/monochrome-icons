@@ -1,6 +1,6 @@
 {
   "name": "MonochromeIcons",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "kind": "WhiteSur-compatible icon-theme overlay",
   "inherits": [
     "WhiteSur-dark",
@@ -24,6 +24,34 @@
     {
       "name": "Alacritty",
       "asset_key": "Alacritty"
+    },
+    {
+      "name": "ai.storyteller.artcraft-launcher",
+      "asset_key": "artcraft-launcher"
+    },
+    {
+      "name": "ai.storyteller.deckcraft",
+      "asset_key": "deckcraft"
+    },
+    {
+      "name": "ai.storyteller.gridcraft",
+      "asset_key": "gridcraft"
+    },
+    {
+      "name": "ai.storyteller.pdfcraft",
+      "asset_key": "pdfcraft"
+    },
+    {
+      "name": "ai.storyteller.photocraft",
+      "asset_key": "photocraft"
+    },
+    {
+      "name": "ai.storyteller.vectorcraft",
+      "asset_key": "vectorcraft"
+    },
+    {
+      "name": "ai.storyteller.wordcraft",
+      "asset_key": "wordcraft"
     },
     {
       "name": "asunder",
@@ -1084,6 +1112,566 @@
       "size": 256
     },
     {
+      "file": "theme/MonochromeIcons/apps/16/ai.storyteller.artcraft-launcher.png",
+      "sha256": "49caba01a31faeba5dbb50bf43b5a5b098c608e9e0d8fcf1faa628ff2d39cda6",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 16
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/22/ai.storyteller.artcraft-launcher.png",
+      "sha256": "14c4233b23f4b6e84b7a1b798ab61de7335fb3f8798711c4bbcd31336409a932",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 22
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/24/ai.storyteller.artcraft-launcher.png",
+      "sha256": "a300887fb5a2e2f3d634b5ae3f40c02ec07cd46d92d2daf0d05b87f0745054a8",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 24
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/32/ai.storyteller.artcraft-launcher.png",
+      "sha256": "15298e04322216673ac64faa340a76e06f8ca93f422a4e27d3cbe03c11f09254",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 32
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/40/ai.storyteller.artcraft-launcher.png",
+      "sha256": "6a3c19860b3b8fa3b52baa9b22929a189d5bc4e5a9b44cf5881d7d16d2fd689c",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 40
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/48/ai.storyteller.artcraft-launcher.png",
+      "sha256": "ea01a1c009d7988bea2f766800825a387d12bcac2f6c3445467c9d3fd96b055b",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 48
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/64/ai.storyteller.artcraft-launcher.png",
+      "sha256": "45337481800985280fdbfbb0cb0a1263d36c06fc4413af80ddc3139fa14d99c8",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 64
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/96/ai.storyteller.artcraft-launcher.png",
+      "sha256": "2ce5b320f4fcbe35639cceadaa2d0bbd14e1a4e365deb4f2ff6fbce160fa829a",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 96
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/128/ai.storyteller.artcraft-launcher.png",
+      "sha256": "f517b557821bebd158f29c9767fcb906c5e34ad2261bc1d9c0b20fd445c7520e",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 128
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/256/ai.storyteller.artcraft-launcher.png",
+      "sha256": "cc4a7e5771d0cc82b56c0544491d69e2dcab6487467ade63522a56b9f3ada34b",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 256
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/16/ai.storyteller.deckcraft.png",
+      "sha256": "f54231cf948a9676fc27399a86f73a849bc48c8b1c963bd4e6f5316114d09441",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 16
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/22/ai.storyteller.deckcraft.png",
+      "sha256": "26d825f5b974ce313d2823964408c5d79dfbf20714e2f3059dee0b1f80c71bd0",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 22
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/24/ai.storyteller.deckcraft.png",
+      "sha256": "7e9a003769c12bf6c40a797af96248ca9bdf12ab10d34120a2f13a90a8b32310",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 24
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/32/ai.storyteller.deckcraft.png",
+      "sha256": "67b88c2e9199cf7a8b8a78d4a2546113a9cbe191d9a87753a2b1aad51aca3e6f",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 32
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/40/ai.storyteller.deckcraft.png",
+      "sha256": "867bbd34cf4299a0e59188a5838ec8b638666a29057273b3be815e52ab2e5436",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 40
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/48/ai.storyteller.deckcraft.png",
+      "sha256": "b9ac5c5732297aeda03211cad54617da486d968b417485eafd2a89b62248192f",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 48
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/64/ai.storyteller.deckcraft.png",
+      "sha256": "2ce1678078aaeb53b5748be851a7b609b79692bf6c4b5d4c0faceaebbbd0ddc7",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 64
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/96/ai.storyteller.deckcraft.png",
+      "sha256": "beae8a61b62c225819fdeeeb9e781afd2aeed8b237e82781ab505fc9d8a9dead",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 96
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/128/ai.storyteller.deckcraft.png",
+      "sha256": "a10792236b1eb9d1b9ad08cc3395312b975974f9132854f4c080893159b9ac86",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 128
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/256/ai.storyteller.deckcraft.png",
+      "sha256": "3adf968940f68f0456f31282d26f8c4cc5d90e35d4ae13a43bc76a5abfb7a567",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 256
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/16/ai.storyteller.gridcraft.png",
+      "sha256": "2377ee9669f2ac5f2d6950f5969e7099bebd21dd5a117a02a408a1f1b534003e",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 16
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/22/ai.storyteller.gridcraft.png",
+      "sha256": "d0e5d194314dbeccab039919a0104cc961b1553f7ce28decb6209c724d7faff6",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 22
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/24/ai.storyteller.gridcraft.png",
+      "sha256": "aa075c31fb4efac91b933ba295b694f405e26dea997e07c71ce1a4a26233c1c3",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 24
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/32/ai.storyteller.gridcraft.png",
+      "sha256": "61285b3e656d3b3d3666c58eafe0c35e5ffcd81929abd34b00e4991b26ada534",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 32
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/40/ai.storyteller.gridcraft.png",
+      "sha256": "c38945519df297221e059ac5b0b0b2b5f9c44e39575897ee6ab82e109d050c6a",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 40
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/48/ai.storyteller.gridcraft.png",
+      "sha256": "65a5393665ebd0aee0df02e8ad254bf37a85a04984390e76b31385411de634ad",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 48
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/64/ai.storyteller.gridcraft.png",
+      "sha256": "6629276ce174350e1212761602cd5dfee79f3d41e5bda6bedb13510d069c4b2b",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 64
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/96/ai.storyteller.gridcraft.png",
+      "sha256": "4fe99c448f48e6e69e10f9071fd15b1f5e32e4fd618654979413f9ddce5b0a99",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 96
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/128/ai.storyteller.gridcraft.png",
+      "sha256": "85de565d83c5d03ae6ae9366838a79e353016f072d73622aca335de24a94d0b6",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 128
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/256/ai.storyteller.gridcraft.png",
+      "sha256": "6fff23f215c3326cb5887fb7b81093601b2d64fae9f283e7bc2c837456a26f71",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 256
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/16/ai.storyteller.pdfcraft.png",
+      "sha256": "2b3b325e22261168d0836534093a02d43e7e86933396d2fa56498776f4822ba8",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 16
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/22/ai.storyteller.pdfcraft.png",
+      "sha256": "22211db99338bd1d28944e22abdfaa8d8f975734d2f77050d93426f9e501ee8e",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 22
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/24/ai.storyteller.pdfcraft.png",
+      "sha256": "ab5a5b0b19a330fa0b6df8c77199ab55cbd95a0e1294c2879e073f4f517f4e9d",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 24
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/32/ai.storyteller.pdfcraft.png",
+      "sha256": "e46e24728ff183a7fc345dbebab12f60aa52da198dac59a159d15771dd32d48c",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 32
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/40/ai.storyteller.pdfcraft.png",
+      "sha256": "1d7bbfd1717f15d389577f5e0c08b37d12e7d6cd8e27d0cfe1b753c8202d7c20",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 40
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/48/ai.storyteller.pdfcraft.png",
+      "sha256": "5f483d09ca7088853f9bff9b994566f1c9baee3c33eed2b4df3307929fcdc86e",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 48
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/64/ai.storyteller.pdfcraft.png",
+      "sha256": "8a2c0f3b2b164019d95956230936250cf3b8a0f979e806b4a0738f828366056f",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 64
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/96/ai.storyteller.pdfcraft.png",
+      "sha256": "25559c13cdc6a0e1416605a612bb983ffca06d1ad78c2d538207aca1c0b546a2",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 96
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/128/ai.storyteller.pdfcraft.png",
+      "sha256": "3f47a8428901908eef14844e5a695fb26c1db375f630543e7ed3929b2ffa805b",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 128
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/256/ai.storyteller.pdfcraft.png",
+      "sha256": "5418b879d1d7da03883c9cd423416500b0a125427b5885e8ad4d92c60053a541",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 256
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/16/ai.storyteller.photocraft.png",
+      "sha256": "6348c0ca9fc9c8f5737b15d81a8c786d69f2193b396ed4d6e8d18061536d5494",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 16
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/22/ai.storyteller.photocraft.png",
+      "sha256": "aeb4d6d0d9f3d9c511cafbba1298af7aa506e6ba48b9a934988c639991233daf",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 22
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/24/ai.storyteller.photocraft.png",
+      "sha256": "0d1cda3e8e1e6dd48cd4a6270fbbf6a2135274d8f44e77420b31aca0e888e389",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 24
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/32/ai.storyteller.photocraft.png",
+      "sha256": "848b566a5422fe133a4c88e88bd32f15dda2615783d7d6bc770ac4455d26b142",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 32
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/40/ai.storyteller.photocraft.png",
+      "sha256": "88c2736132ff5f62c6cfd45cb5f115e26bb3a7b3e75f80ec2c30eedfd3f77a76",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 40
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/48/ai.storyteller.photocraft.png",
+      "sha256": "8e67d4ef693c601af806dd6a6365eb174c5698c598e9987d221dfaf43ab65e2f",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 48
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/64/ai.storyteller.photocraft.png",
+      "sha256": "97056fc3052d14a027675d0dc0ba292bd0c3c1bb96b6dff1a6bae7a4dd6fda34",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 64
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/96/ai.storyteller.photocraft.png",
+      "sha256": "334b89898eaef91e34fb9694615929114c707218d2f3a5b816764b39279daa95",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 96
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/128/ai.storyteller.photocraft.png",
+      "sha256": "7393680361311e5c973b5e4912fe382148171e62502198b389bdec8d3d103e0b",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 128
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/256/ai.storyteller.photocraft.png",
+      "sha256": "6eccebb9e03eb1a59aa8407d5df9c5f69e2cf29f6045dc826ece292460ac5573",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 256
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/16/ai.storyteller.vectorcraft.png",
+      "sha256": "a5efeeaa851765bdb479cf08f8b0dddacddac71927e09010d401f03658cd300f",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 16
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/22/ai.storyteller.vectorcraft.png",
+      "sha256": "ef27a2566099dc98be8d33555c87f9fa22f532b3901760cc1541ba9d91fcd8d2",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 22
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/24/ai.storyteller.vectorcraft.png",
+      "sha256": "dc3e180de21fec39d74fa0f9c73997ec53036a4a809244b7a6df39f26ad1609f",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 24
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/32/ai.storyteller.vectorcraft.png",
+      "sha256": "04da0f3845abfef05809d4da3ac0df2efd3435e2f7547445dc8a588677229558",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 32
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/40/ai.storyteller.vectorcraft.png",
+      "sha256": "d087d8c923f935fbd0b85f440653f7b3aad0acc4ea4cfe844db00d6e1f53a783",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 40
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/48/ai.storyteller.vectorcraft.png",
+      "sha256": "f7c6e72f0b9d54638b1728d886708084f0052151f6c9c68b0fe58b340a773ede",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 48
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/64/ai.storyteller.vectorcraft.png",
+      "sha256": "238d2b772a86d1a830d886e789883fc99d8c7f7be2017a867336d848be293bb0",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 64
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/96/ai.storyteller.vectorcraft.png",
+      "sha256": "e6a334909d81b2c7ac796c9f6ff65aa4c6dd8ecbd3523771e7226fb8ccf0f48b",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 96
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/128/ai.storyteller.vectorcraft.png",
+      "sha256": "97b3cbca625af4478d657ddb9fa940a5c65e49bc0ce4a468bb7d0c7951a9bd59",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 128
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/256/ai.storyteller.vectorcraft.png",
+      "sha256": "b0b78ff4aaa9f74174fd6fd940577db81f0d8f6b5b9f31cc802ac396ea30a418",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 256
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/16/ai.storyteller.wordcraft.png",
+      "sha256": "c85d125b91e9978dc25e1cb21ef7007dfac82547f5ce581cf81ce64f02c761a9",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 16
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/22/ai.storyteller.wordcraft.png",
+      "sha256": "e72679c4492e77a4c80416adb748f470e33decce95356bf2fd47d9b5066b05b8",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 22
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/24/ai.storyteller.wordcraft.png",
+      "sha256": "f37034c190f768cbc2625ad1a63381f38b88290b69a8cdcdc4838d708afa6ef6",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 24
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/32/ai.storyteller.wordcraft.png",
+      "sha256": "8d0064211481e53a7b47a1341f7abf5a711cc313c00d44e2a36e94ae62d0309e",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 32
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/40/ai.storyteller.wordcraft.png",
+      "sha256": "16688735f6730189ab9e9464ee69b8b519b09b191a698ef92d0650476a6d11a7",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 40
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/48/ai.storyteller.wordcraft.png",
+      "sha256": "a2d1b0bb62319fa632f0ee39f790600b41f68828742c68b81323c2a7f3f1605b",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 48
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/64/ai.storyteller.wordcraft.png",
+      "sha256": "de62ecef511d9cca4dfa960b15c7001652114bd5fd044f55fd03412b58e0be84",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 64
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/96/ai.storyteller.wordcraft.png",
+      "sha256": "e97e18d60d5b982cdf40ca125a5d2cb220d4cf5b03ff4a75139eb56f79116c0f",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 96
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/128/ai.storyteller.wordcraft.png",
+      "sha256": "804cb17ca2d0455fba55851fd3c07d08656c9a13d8b8d8952667845442b0697a",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 128
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/256/ai.storyteller.wordcraft.png",
+      "sha256": "7f9fa23467bd4246c533fb7c3fc8adbc17e84f6adc08fb786aee52e75c7292b1",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 256
+    },
+    {
       "file": "theme/MonochromeIcons/apps/16/alsamixer.png",
       "sha256": "f37a87256bf0e2d4e254248105b5d5366b56422208789ff58dde34c8d13a6afb",
       "asset_key": "alsamixer",
@@ -1240,6 +1828,86 @@
       "sha256": "657f3b7147e7f63baebad381568ebc7a346921a9d2c5ce7c45798ecea90ecd6d",
       "asset_key": "menu-all-applications",
       "source_sha256": "6520344911d7c26fa4363c4936c2cb29e6f70332f762a05c2a25c89eff829ba5",
+      "format": "png",
+      "size": 256
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/16/artcraft-launcher.png",
+      "sha256": "49caba01a31faeba5dbb50bf43b5a5b098c608e9e0d8fcf1faa628ff2d39cda6",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 16
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/22/artcraft-launcher.png",
+      "sha256": "14c4233b23f4b6e84b7a1b798ab61de7335fb3f8798711c4bbcd31336409a932",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 22
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/24/artcraft-launcher.png",
+      "sha256": "a300887fb5a2e2f3d634b5ae3f40c02ec07cd46d92d2daf0d05b87f0745054a8",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 24
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/32/artcraft-launcher.png",
+      "sha256": "15298e04322216673ac64faa340a76e06f8ca93f422a4e27d3cbe03c11f09254",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 32
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/40/artcraft-launcher.png",
+      "sha256": "6a3c19860b3b8fa3b52baa9b22929a189d5bc4e5a9b44cf5881d7d16d2fd689c",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 40
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/48/artcraft-launcher.png",
+      "sha256": "ea01a1c009d7988bea2f766800825a387d12bcac2f6c3445467c9d3fd96b055b",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 48
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/64/artcraft-launcher.png",
+      "sha256": "45337481800985280fdbfbb0cb0a1263d36c06fc4413af80ddc3139fa14d99c8",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 64
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/96/artcraft-launcher.png",
+      "sha256": "2ce5b320f4fcbe35639cceadaa2d0bbd14e1a4e365deb4f2ff6fbce160fa829a",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 96
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/128/artcraft-launcher.png",
+      "sha256": "f517b557821bebd158f29c9767fcb906c5e34ad2261bc1d9c0b20fd445c7520e",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 128
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/256/artcraft-launcher.png",
+      "sha256": "cc4a7e5771d0cc82b56c0544491d69e2dcab6487467ade63522a56b9f3ada34b",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
       "format": "png",
       "size": 256
     },
@@ -3084,6 +3752,86 @@
       "size": 256
     },
     {
+      "file": "theme/MonochromeIcons/apps/16/deckcraft.png",
+      "sha256": "f54231cf948a9676fc27399a86f73a849bc48c8b1c963bd4e6f5316114d09441",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 16
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/22/deckcraft.png",
+      "sha256": "26d825f5b974ce313d2823964408c5d79dfbf20714e2f3059dee0b1f80c71bd0",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 22
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/24/deckcraft.png",
+      "sha256": "7e9a003769c12bf6c40a797af96248ca9bdf12ab10d34120a2f13a90a8b32310",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 24
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/32/deckcraft.png",
+      "sha256": "67b88c2e9199cf7a8b8a78d4a2546113a9cbe191d9a87753a2b1aad51aca3e6f",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 32
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/40/deckcraft.png",
+      "sha256": "867bbd34cf4299a0e59188a5838ec8b638666a29057273b3be815e52ab2e5436",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 40
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/48/deckcraft.png",
+      "sha256": "b9ac5c5732297aeda03211cad54617da486d968b417485eafd2a89b62248192f",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 48
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/64/deckcraft.png",
+      "sha256": "2ce1678078aaeb53b5748be851a7b609b79692bf6c4b5d4c0faceaebbbd0ddc7",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 64
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/96/deckcraft.png",
+      "sha256": "beae8a61b62c225819fdeeeb9e781afd2aeed8b237e82781ab505fc9d8a9dead",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 96
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/128/deckcraft.png",
+      "sha256": "a10792236b1eb9d1b9ad08cc3395312b975974f9132854f4c080893159b9ac86",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 128
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/256/deckcraft.png",
+      "sha256": "3adf968940f68f0456f31282d26f8c4cc5d90e35d4ae13a43bc76a5abfb7a567",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 256
+    },
+    {
       "file": "theme/MonochromeIcons/apps/16/dialog-information.png",
       "sha256": "0c49560abe9baeddf2c7829df06c77985589e99943e7afcdba2b2a4f4aea48a2",
       "asset_key": "info",
@@ -3880,6 +4628,86 @@
       "sha256": "4d2c885ac7176b900b5923351fed0c7c31da0afe0f13b1a92c41c9ec3412e9ef",
       "asset_key": "gparted",
       "source_sha256": "9e4b37cf01355b65ee81981ae2a3e40bd9aeba8eef7ec652e3acd33abdca79c0",
+      "format": "png",
+      "size": 256
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/16/gridcraft.png",
+      "sha256": "2377ee9669f2ac5f2d6950f5969e7099bebd21dd5a117a02a408a1f1b534003e",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 16
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/22/gridcraft.png",
+      "sha256": "d0e5d194314dbeccab039919a0104cc961b1553f7ce28decb6209c724d7faff6",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 22
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/24/gridcraft.png",
+      "sha256": "aa075c31fb4efac91b933ba295b694f405e26dea997e07c71ce1a4a26233c1c3",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 24
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/32/gridcraft.png",
+      "sha256": "61285b3e656d3b3d3666c58eafe0c35e5ffcd81929abd34b00e4991b26ada534",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 32
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/40/gridcraft.png",
+      "sha256": "c38945519df297221e059ac5b0b0b2b5f9c44e39575897ee6ab82e109d050c6a",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 40
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/48/gridcraft.png",
+      "sha256": "65a5393665ebd0aee0df02e8ad254bf37a85a04984390e76b31385411de634ad",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 48
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/64/gridcraft.png",
+      "sha256": "6629276ce174350e1212761602cd5dfee79f3d41e5bda6bedb13510d069c4b2b",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 64
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/96/gridcraft.png",
+      "sha256": "4fe99c448f48e6e69e10f9071fd15b1f5e32e4fd618654979413f9ddce5b0a99",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 96
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/128/gridcraft.png",
+      "sha256": "85de565d83c5d03ae6ae9366838a79e353016f072d73622aca335de24a94d0b6",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 128
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/256/gridcraft.png",
+      "sha256": "6fff23f215c3326cb5887fb7b81093601b2d64fae9f283e7bc2c837456a26f71",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
       "format": "png",
       "size": 256
     },
@@ -7324,6 +8152,86 @@
       "size": 256
     },
     {
+      "file": "theme/MonochromeIcons/apps/16/monochrome-artcraft-launcher.png",
+      "sha256": "49caba01a31faeba5dbb50bf43b5a5b098c608e9e0d8fcf1faa628ff2d39cda6",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 16
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/22/monochrome-artcraft-launcher.png",
+      "sha256": "14c4233b23f4b6e84b7a1b798ab61de7335fb3f8798711c4bbcd31336409a932",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 22
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/24/monochrome-artcraft-launcher.png",
+      "sha256": "a300887fb5a2e2f3d634b5ae3f40c02ec07cd46d92d2daf0d05b87f0745054a8",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 24
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/32/monochrome-artcraft-launcher.png",
+      "sha256": "15298e04322216673ac64faa340a76e06f8ca93f422a4e27d3cbe03c11f09254",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 32
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/40/monochrome-artcraft-launcher.png",
+      "sha256": "6a3c19860b3b8fa3b52baa9b22929a189d5bc4e5a9b44cf5881d7d16d2fd689c",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 40
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/48/monochrome-artcraft-launcher.png",
+      "sha256": "ea01a1c009d7988bea2f766800825a387d12bcac2f6c3445467c9d3fd96b055b",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 48
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/64/monochrome-artcraft-launcher.png",
+      "sha256": "45337481800985280fdbfbb0cb0a1263d36c06fc4413af80ddc3139fa14d99c8",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 64
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/96/monochrome-artcraft-launcher.png",
+      "sha256": "2ce5b320f4fcbe35639cceadaa2d0bbd14e1a4e365deb4f2ff6fbce160fa829a",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 96
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/128/monochrome-artcraft-launcher.png",
+      "sha256": "f517b557821bebd158f29c9767fcb906c5e34ad2261bc1d9c0b20fd445c7520e",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 128
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/256/monochrome-artcraft-launcher.png",
+      "sha256": "cc4a7e5771d0cc82b56c0544491d69e2dcab6487467ade63522a56b9f3ada34b",
+      "asset_key": "artcraft-launcher",
+      "source_sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "format": "png",
+      "size": 256
+    },
+    {
       "file": "theme/MonochromeIcons/apps/16/monochrome-asunder.png",
       "sha256": "15144876e918eb8e905b4260751648b7c6e120d956cf14b3e997d84e182fc0a5",
       "asset_key": "asunder",
@@ -8764,6 +9672,86 @@
       "size": 256
     },
     {
+      "file": "theme/MonochromeIcons/apps/16/monochrome-deckcraft.png",
+      "sha256": "f54231cf948a9676fc27399a86f73a849bc48c8b1c963bd4e6f5316114d09441",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 16
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/22/monochrome-deckcraft.png",
+      "sha256": "26d825f5b974ce313d2823964408c5d79dfbf20714e2f3059dee0b1f80c71bd0",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 22
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/24/monochrome-deckcraft.png",
+      "sha256": "7e9a003769c12bf6c40a797af96248ca9bdf12ab10d34120a2f13a90a8b32310",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 24
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/32/monochrome-deckcraft.png",
+      "sha256": "67b88c2e9199cf7a8b8a78d4a2546113a9cbe191d9a87753a2b1aad51aca3e6f",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 32
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/40/monochrome-deckcraft.png",
+      "sha256": "867bbd34cf4299a0e59188a5838ec8b638666a29057273b3be815e52ab2e5436",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 40
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/48/monochrome-deckcraft.png",
+      "sha256": "b9ac5c5732297aeda03211cad54617da486d968b417485eafd2a89b62248192f",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 48
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/64/monochrome-deckcraft.png",
+      "sha256": "2ce1678078aaeb53b5748be851a7b609b79692bf6c4b5d4c0faceaebbbd0ddc7",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 64
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/96/monochrome-deckcraft.png",
+      "sha256": "beae8a61b62c225819fdeeeb9e781afd2aeed8b237e82781ab505fc9d8a9dead",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 96
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/128/monochrome-deckcraft.png",
+      "sha256": "a10792236b1eb9d1b9ad08cc3395312b975974f9132854f4c080893159b9ac86",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 128
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/256/monochrome-deckcraft.png",
+      "sha256": "3adf968940f68f0456f31282d26f8c4cc5d90e35d4ae13a43bc76a5abfb7a567",
+      "asset_key": "deckcraft",
+      "source_sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "format": "png",
+      "size": 256
+    },
+    {
       "file": "theme/MonochromeIcons/apps/16/monochrome-engrampa.png",
       "sha256": "123b07b5bad750d633e999b8ac5855769accab4a033e243bee123b01eaa3f9cd",
       "asset_key": "engrampa",
@@ -9400,6 +10388,86 @@
       "sha256": "4d2c885ac7176b900b5923351fed0c7c31da0afe0f13b1a92c41c9ec3412e9ef",
       "asset_key": "gparted",
       "source_sha256": "9e4b37cf01355b65ee81981ae2a3e40bd9aeba8eef7ec652e3acd33abdca79c0",
+      "format": "png",
+      "size": 256
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/16/monochrome-gridcraft.png",
+      "sha256": "2377ee9669f2ac5f2d6950f5969e7099bebd21dd5a117a02a408a1f1b534003e",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 16
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/22/monochrome-gridcraft.png",
+      "sha256": "d0e5d194314dbeccab039919a0104cc961b1553f7ce28decb6209c724d7faff6",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 22
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/24/monochrome-gridcraft.png",
+      "sha256": "aa075c31fb4efac91b933ba295b694f405e26dea997e07c71ce1a4a26233c1c3",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 24
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/32/monochrome-gridcraft.png",
+      "sha256": "61285b3e656d3b3d3666c58eafe0c35e5ffcd81929abd34b00e4991b26ada534",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 32
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/40/monochrome-gridcraft.png",
+      "sha256": "c38945519df297221e059ac5b0b0b2b5f9c44e39575897ee6ab82e109d050c6a",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 40
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/48/monochrome-gridcraft.png",
+      "sha256": "65a5393665ebd0aee0df02e8ad254bf37a85a04984390e76b31385411de634ad",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 48
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/64/monochrome-gridcraft.png",
+      "sha256": "6629276ce174350e1212761602cd5dfee79f3d41e5bda6bedb13510d069c4b2b",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 64
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/96/monochrome-gridcraft.png",
+      "sha256": "4fe99c448f48e6e69e10f9071fd15b1f5e32e4fd618654979413f9ddce5b0a99",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 96
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/128/monochrome-gridcraft.png",
+      "sha256": "85de565d83c5d03ae6ae9366838a79e353016f072d73622aca335de24a94d0b6",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "format": "png",
+      "size": 128
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/256/monochrome-gridcraft.png",
+      "sha256": "6fff23f215c3326cb5887fb7b81093601b2d64fae9f283e7bc2c837456a26f71",
+      "asset_key": "gridcraft",
+      "source_sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
       "format": "png",
       "size": 256
     },
@@ -15244,6 +16312,166 @@
       "size": 256
     },
     {
+      "file": "theme/MonochromeIcons/apps/16/monochrome-pdfcraft.png",
+      "sha256": "2b3b325e22261168d0836534093a02d43e7e86933396d2fa56498776f4822ba8",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 16
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/22/monochrome-pdfcraft.png",
+      "sha256": "22211db99338bd1d28944e22abdfaa8d8f975734d2f77050d93426f9e501ee8e",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 22
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/24/monochrome-pdfcraft.png",
+      "sha256": "ab5a5b0b19a330fa0b6df8c77199ab55cbd95a0e1294c2879e073f4f517f4e9d",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 24
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/32/monochrome-pdfcraft.png",
+      "sha256": "e46e24728ff183a7fc345dbebab12f60aa52da198dac59a159d15771dd32d48c",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 32
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/40/monochrome-pdfcraft.png",
+      "sha256": "1d7bbfd1717f15d389577f5e0c08b37d12e7d6cd8e27d0cfe1b753c8202d7c20",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 40
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/48/monochrome-pdfcraft.png",
+      "sha256": "5f483d09ca7088853f9bff9b994566f1c9baee3c33eed2b4df3307929fcdc86e",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 48
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/64/monochrome-pdfcraft.png",
+      "sha256": "8a2c0f3b2b164019d95956230936250cf3b8a0f979e806b4a0738f828366056f",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 64
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/96/monochrome-pdfcraft.png",
+      "sha256": "25559c13cdc6a0e1416605a612bb983ffca06d1ad78c2d538207aca1c0b546a2",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 96
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/128/monochrome-pdfcraft.png",
+      "sha256": "3f47a8428901908eef14844e5a695fb26c1db375f630543e7ed3929b2ffa805b",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 128
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/256/monochrome-pdfcraft.png",
+      "sha256": "5418b879d1d7da03883c9cd423416500b0a125427b5885e8ad4d92c60053a541",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 256
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/16/monochrome-photocraft.png",
+      "sha256": "6348c0ca9fc9c8f5737b15d81a8c786d69f2193b396ed4d6e8d18061536d5494",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 16
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/22/monochrome-photocraft.png",
+      "sha256": "aeb4d6d0d9f3d9c511cafbba1298af7aa506e6ba48b9a934988c639991233daf",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 22
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/24/monochrome-photocraft.png",
+      "sha256": "0d1cda3e8e1e6dd48cd4a6270fbbf6a2135274d8f44e77420b31aca0e888e389",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 24
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/32/monochrome-photocraft.png",
+      "sha256": "848b566a5422fe133a4c88e88bd32f15dda2615783d7d6bc770ac4455d26b142",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 32
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/40/monochrome-photocraft.png",
+      "sha256": "88c2736132ff5f62c6cfd45cb5f115e26bb3a7b3e75f80ec2c30eedfd3f77a76",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 40
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/48/monochrome-photocraft.png",
+      "sha256": "8e67d4ef693c601af806dd6a6365eb174c5698c598e9987d221dfaf43ab65e2f",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 48
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/64/monochrome-photocraft.png",
+      "sha256": "97056fc3052d14a027675d0dc0ba292bd0c3c1bb96b6dff1a6bae7a4dd6fda34",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 64
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/96/monochrome-photocraft.png",
+      "sha256": "334b89898eaef91e34fb9694615929114c707218d2f3a5b816764b39279daa95",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 96
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/128/monochrome-photocraft.png",
+      "sha256": "7393680361311e5c973b5e4912fe382148171e62502198b389bdec8d3d103e0b",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 128
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/256/monochrome-photocraft.png",
+      "sha256": "6eccebb9e03eb1a59aa8407d5df9c5f69e2cf29f6045dc826ece292460ac5573",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 256
+    },
+    {
       "file": "theme/MonochromeIcons/apps/16/monochrome-plank.png",
       "sha256": "da9302866d21760effd5930991b32aa7661a1a5eaffaa02700acd0612c0b06fd",
       "asset_key": "plank",
@@ -16684,6 +17912,86 @@
       "size": 256
     },
     {
+      "file": "theme/MonochromeIcons/apps/16/monochrome-vectorcraft.png",
+      "sha256": "a5efeeaa851765bdb479cf08f8b0dddacddac71927e09010d401f03658cd300f",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 16
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/22/monochrome-vectorcraft.png",
+      "sha256": "ef27a2566099dc98be8d33555c87f9fa22f532b3901760cc1541ba9d91fcd8d2",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 22
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/24/monochrome-vectorcraft.png",
+      "sha256": "dc3e180de21fec39d74fa0f9c73997ec53036a4a809244b7a6df39f26ad1609f",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 24
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/32/monochrome-vectorcraft.png",
+      "sha256": "04da0f3845abfef05809d4da3ac0df2efd3435e2f7547445dc8a588677229558",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 32
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/40/monochrome-vectorcraft.png",
+      "sha256": "d087d8c923f935fbd0b85f440653f7b3aad0acc4ea4cfe844db00d6e1f53a783",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 40
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/48/monochrome-vectorcraft.png",
+      "sha256": "f7c6e72f0b9d54638b1728d886708084f0052151f6c9c68b0fe58b340a773ede",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 48
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/64/monochrome-vectorcraft.png",
+      "sha256": "238d2b772a86d1a830d886e789883fc99d8c7f7be2017a867336d848be293bb0",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 64
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/96/monochrome-vectorcraft.png",
+      "sha256": "e6a334909d81b2c7ac796c9f6ff65aa4c6dd8ecbd3523771e7226fb8ccf0f48b",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 96
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/128/monochrome-vectorcraft.png",
+      "sha256": "97b3cbca625af4478d657ddb9fa940a5c65e49bc0ce4a468bb7d0c7951a9bd59",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 128
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/256/monochrome-vectorcraft.png",
+      "sha256": "b0b78ff4aaa9f74174fd6fd940577db81f0d8f6b5b9f31cc802ac396ea30a418",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 256
+    },
+    {
       "file": "theme/MonochromeIcons/apps/16/monochrome-vlc.png",
       "sha256": "447cc0fa5447c380ecccf9f40b6bab719b8df6368606d7d22c83a847b4503999",
       "asset_key": "vlc",
@@ -16840,6 +18148,86 @@
       "sha256": "02ff2047cd5beffb01121a503933a44ff75de927fa722360559b7c25c4a96dba",
       "asset_key": "whatsapp-web",
       "source_sha256": "2d8a8bf83ce76e6c2698cd738acc8db2c586c91e4b9a87b972e0033b97888f36",
+      "format": "png",
+      "size": 256
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/16/monochrome-wordcraft.png",
+      "sha256": "c85d125b91e9978dc25e1cb21ef7007dfac82547f5ce581cf81ce64f02c761a9",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 16
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/22/monochrome-wordcraft.png",
+      "sha256": "e72679c4492e77a4c80416adb748f470e33decce95356bf2fd47d9b5066b05b8",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 22
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/24/monochrome-wordcraft.png",
+      "sha256": "f37034c190f768cbc2625ad1a63381f38b88290b69a8cdcdc4838d708afa6ef6",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 24
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/32/monochrome-wordcraft.png",
+      "sha256": "8d0064211481e53a7b47a1341f7abf5a711cc313c00d44e2a36e94ae62d0309e",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 32
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/40/monochrome-wordcraft.png",
+      "sha256": "16688735f6730189ab9e9464ee69b8b519b09b191a698ef92d0650476a6d11a7",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 40
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/48/monochrome-wordcraft.png",
+      "sha256": "a2d1b0bb62319fa632f0ee39f790600b41f68828742c68b81323c2a7f3f1605b",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 48
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/64/monochrome-wordcraft.png",
+      "sha256": "de62ecef511d9cca4dfa960b15c7001652114bd5fd044f55fd03412b58e0be84",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 64
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/96/monochrome-wordcraft.png",
+      "sha256": "e97e18d60d5b982cdf40ca125a5d2cb220d4cf5b03ff4a75139eb56f79116c0f",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 96
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/128/monochrome-wordcraft.png",
+      "sha256": "804cb17ca2d0455fba55851fd3c07d08656c9a13d8b8d8952667845442b0697a",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 128
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/256/monochrome-wordcraft.png",
+      "sha256": "7f9fa23467bd4246c533fb7c3fc8adbc17e84f6adc08fb786aee52e75c7292b1",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
       "format": "png",
       "size": 256
     },
@@ -26364,6 +27752,166 @@
       "size": 256
     },
     {
+      "file": "theme/MonochromeIcons/apps/16/pdfcraft.png",
+      "sha256": "2b3b325e22261168d0836534093a02d43e7e86933396d2fa56498776f4822ba8",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 16
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/22/pdfcraft.png",
+      "sha256": "22211db99338bd1d28944e22abdfaa8d8f975734d2f77050d93426f9e501ee8e",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 22
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/24/pdfcraft.png",
+      "sha256": "ab5a5b0b19a330fa0b6df8c77199ab55cbd95a0e1294c2879e073f4f517f4e9d",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 24
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/32/pdfcraft.png",
+      "sha256": "e46e24728ff183a7fc345dbebab12f60aa52da198dac59a159d15771dd32d48c",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 32
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/40/pdfcraft.png",
+      "sha256": "1d7bbfd1717f15d389577f5e0c08b37d12e7d6cd8e27d0cfe1b753c8202d7c20",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 40
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/48/pdfcraft.png",
+      "sha256": "5f483d09ca7088853f9bff9b994566f1c9baee3c33eed2b4df3307929fcdc86e",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 48
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/64/pdfcraft.png",
+      "sha256": "8a2c0f3b2b164019d95956230936250cf3b8a0f979e806b4a0738f828366056f",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 64
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/96/pdfcraft.png",
+      "sha256": "25559c13cdc6a0e1416605a612bb983ffca06d1ad78c2d538207aca1c0b546a2",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 96
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/128/pdfcraft.png",
+      "sha256": "3f47a8428901908eef14844e5a695fb26c1db375f630543e7ed3929b2ffa805b",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 128
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/256/pdfcraft.png",
+      "sha256": "5418b879d1d7da03883c9cd423416500b0a125427b5885e8ad4d92c60053a541",
+      "asset_key": "pdfcraft",
+      "source_sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "format": "png",
+      "size": 256
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/16/photocraft.png",
+      "sha256": "6348c0ca9fc9c8f5737b15d81a8c786d69f2193b396ed4d6e8d18061536d5494",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 16
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/22/photocraft.png",
+      "sha256": "aeb4d6d0d9f3d9c511cafbba1298af7aa506e6ba48b9a934988c639991233daf",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 22
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/24/photocraft.png",
+      "sha256": "0d1cda3e8e1e6dd48cd4a6270fbbf6a2135274d8f44e77420b31aca0e888e389",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 24
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/32/photocraft.png",
+      "sha256": "848b566a5422fe133a4c88e88bd32f15dda2615783d7d6bc770ac4455d26b142",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 32
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/40/photocraft.png",
+      "sha256": "88c2736132ff5f62c6cfd45cb5f115e26bb3a7b3e75f80ec2c30eedfd3f77a76",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 40
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/48/photocraft.png",
+      "sha256": "8e67d4ef693c601af806dd6a6365eb174c5698c598e9987d221dfaf43ab65e2f",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 48
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/64/photocraft.png",
+      "sha256": "97056fc3052d14a027675d0dc0ba292bd0c3c1bb96b6dff1a6bae7a4dd6fda34",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 64
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/96/photocraft.png",
+      "sha256": "334b89898eaef91e34fb9694615929114c707218d2f3a5b816764b39279daa95",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 96
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/128/photocraft.png",
+      "sha256": "7393680361311e5c973b5e4912fe382148171e62502198b389bdec8d3d103e0b",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 128
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/256/photocraft.png",
+      "sha256": "6eccebb9e03eb1a59aa8407d5df9c5f69e2cf29f6045dc826ece292460ac5573",
+      "asset_key": "photocraft",
+      "source_sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "format": "png",
+      "size": 256
+    },
+    {
       "file": "theme/MonochromeIcons/apps/16/plank.png",
       "sha256": "da9302866d21760effd5930991b32aa7661a1a5eaffaa02700acd0612c0b06fd",
       "asset_key": "plank",
@@ -28764,6 +30312,86 @@
       "size": 256
     },
     {
+      "file": "theme/MonochromeIcons/apps/16/vectorcraft.png",
+      "sha256": "a5efeeaa851765bdb479cf08f8b0dddacddac71927e09010d401f03658cd300f",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 16
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/22/vectorcraft.png",
+      "sha256": "ef27a2566099dc98be8d33555c87f9fa22f532b3901760cc1541ba9d91fcd8d2",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 22
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/24/vectorcraft.png",
+      "sha256": "dc3e180de21fec39d74fa0f9c73997ec53036a4a809244b7a6df39f26ad1609f",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 24
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/32/vectorcraft.png",
+      "sha256": "04da0f3845abfef05809d4da3ac0df2efd3435e2f7547445dc8a588677229558",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 32
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/40/vectorcraft.png",
+      "sha256": "d087d8c923f935fbd0b85f440653f7b3aad0acc4ea4cfe844db00d6e1f53a783",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 40
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/48/vectorcraft.png",
+      "sha256": "f7c6e72f0b9d54638b1728d886708084f0052151f6c9c68b0fe58b340a773ede",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 48
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/64/vectorcraft.png",
+      "sha256": "238d2b772a86d1a830d886e789883fc99d8c7f7be2017a867336d848be293bb0",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 64
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/96/vectorcraft.png",
+      "sha256": "e6a334909d81b2c7ac796c9f6ff65aa4c6dd8ecbd3523771e7226fb8ccf0f48b",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 96
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/128/vectorcraft.png",
+      "sha256": "97b3cbca625af4478d657ddb9fa940a5c65e49bc0ce4a468bb7d0c7951a9bd59",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 128
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/256/vectorcraft.png",
+      "sha256": "b0b78ff4aaa9f74174fd6fd940577db81f0d8f6b5b9f31cc802ac396ea30a418",
+      "asset_key": "vectorcraft",
+      "source_sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "format": "png",
+      "size": 256
+    },
+    {
       "file": "theme/MonochromeIcons/apps/16/vlc.png",
       "sha256": "447cc0fa5447c380ecccf9f40b6bab719b8df6368606d7d22c83a847b4503999",
       "asset_key": "vlc",
@@ -29000,6 +30628,86 @@
       "sha256": "02ff2047cd5beffb01121a503933a44ff75de927fa722360559b7c25c4a96dba",
       "asset_key": "whatsapp-web",
       "source_sha256": "2d8a8bf83ce76e6c2698cd738acc8db2c586c91e4b9a87b972e0033b97888f36",
+      "format": "png",
+      "size": 256
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/16/wordcraft.png",
+      "sha256": "c85d125b91e9978dc25e1cb21ef7007dfac82547f5ce581cf81ce64f02c761a9",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 16
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/22/wordcraft.png",
+      "sha256": "e72679c4492e77a4c80416adb748f470e33decce95356bf2fd47d9b5066b05b8",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 22
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/24/wordcraft.png",
+      "sha256": "f37034c190f768cbc2625ad1a63381f38b88290b69a8cdcdc4838d708afa6ef6",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 24
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/32/wordcraft.png",
+      "sha256": "8d0064211481e53a7b47a1341f7abf5a711cc313c00d44e2a36e94ae62d0309e",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 32
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/40/wordcraft.png",
+      "sha256": "16688735f6730189ab9e9464ee69b8b519b09b191a698ef92d0650476a6d11a7",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 40
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/48/wordcraft.png",
+      "sha256": "a2d1b0bb62319fa632f0ee39f790600b41f68828742c68b81323c2a7f3f1605b",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 48
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/64/wordcraft.png",
+      "sha256": "de62ecef511d9cca4dfa960b15c7001652114bd5fd044f55fd03412b58e0be84",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 64
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/96/wordcraft.png",
+      "sha256": "e97e18d60d5b982cdf40ca125a5d2cb220d4cf5b03ff4a75139eb56f79116c0f",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 96
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/128/wordcraft.png",
+      "sha256": "804cb17ca2d0455fba55851fd3c07d08656c9a13d8b8d8952667845442b0697a",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "format": "png",
+      "size": 128
+    },
+    {
+      "file": "theme/MonochromeIcons/apps/256/wordcraft.png",
+      "sha256": "7f9fa23467bd4246c533fb7c3fc8adbc17e84f6adc08fb786aee52e75c7292b1",
+      "asset_key": "wordcraft",
+      "source_sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
       "format": "png",
       "size": 256
     },
