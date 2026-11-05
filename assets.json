@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "release_status": "ready",
-  "export_date": "2026-10-03",
+  "export_date": "2026-11-05",
   "assets": [
     {
       "key": "aerc",
@@ -145,6 +145,174 @@
       "license": "GPL-3.0-only",
       "desktop_ids": [
         "gimp.desktop"
+      ]
+    },
+    {
+      "key": "artcraft-launcher",
+      "name": "ArtCraft Launcher",
+      "file": "icons/artcraft-launcher.svg",
+      "sha256": "a2f5822bc227a95ea1ec0f93a226a8ad50318df468c81c36ac58f6df4247eced",
+      "changes": "Original four-tile suite launcher with craft sparks on the shared black rounded-square frame; created 2026-11-04.",
+      "modified_date": "2026-11-04",
+      "source": {
+        "project_url": null,
+        "asset_reference": "Original vector artwork",
+        "license": "GPL-3.0-only",
+        "verification": "Original project artwork; functional geometric shapes; no vendor mark copied",
+        "notices": [
+          "LICENSE",
+          "ATTRIBUTION.md"
+        ]
+      },
+      "review_status": "cleared",
+      "copyright": "2026 Monochrome Icons contributors",
+      "license": "GPL-3.0-only",
+      "desktop_ids": [
+        "ai.storyteller.artcraft-launcher.desktop"
+      ]
+    },
+    {
+      "key": "photocraft",
+      "name": "PhotoCraft",
+      "file": "icons/photocraft.svg",
+      "sha256": "b2e45796dc057907fb1536f72eae1b347fa03c22d3fe02563fa676591ed6565b",
+      "changes": "Original camera and landscape drawing on the shared black rounded-square frame; created 2026-11-04.",
+      "modified_date": "2026-11-04",
+      "source": {
+        "project_url": null,
+        "asset_reference": "Original vector artwork",
+        "license": "GPL-3.0-only",
+        "verification": "Original project artwork; functional geometric shapes; no vendor mark copied",
+        "notices": [
+          "LICENSE",
+          "ATTRIBUTION.md"
+        ]
+      },
+      "review_status": "cleared",
+      "copyright": "2026 Monochrome Icons contributors",
+      "license": "GPL-3.0-only",
+      "desktop_ids": [
+        "ai.storyteller.photocraft.desktop"
+      ]
+    },
+    {
+      "key": "vectorcraft",
+      "name": "VectorCraft",
+      "file": "icons/vectorcraft.svg",
+      "sha256": "14690dca1f1b51b9bf61e7062ae4c15364b9a60fa4791ec4a2c12c3649ac0b36",
+      "changes": "Original Bézier curve and control-node drawing on the shared black rounded-square frame; created 2026-11-04.",
+      "modified_date": "2026-11-04",
+      "source": {
+        "project_url": null,
+        "asset_reference": "Original vector artwork",
+        "license": "GPL-3.0-only",
+        "verification": "Original project artwork; functional geometric shapes; no vendor mark copied",
+        "notices": [
+          "LICENSE",
+          "ATTRIBUTION.md"
+        ]
+      },
+      "review_status": "cleared",
+      "copyright": "2026 Monochrome Icons contributors",
+      "license": "GPL-3.0-only",
+      "desktop_ids": [
+        "ai.storyteller.vectorcraft.desktop"
+      ]
+    },
+    {
+      "key": "wordcraft",
+      "name": "WordCraft",
+      "file": "icons/wordcraft.svg",
+      "sha256": "9e4223d7728b72fb613ba15dda0af2e81d2f0b72480bcfefc7aeaed35e567465",
+      "changes": "Original folded document and text-line drawing on the shared black rounded-square frame; created 2026-11-04.",
+      "modified_date": "2026-11-04",
+      "source": {
+        "project_url": null,
+        "asset_reference": "Original vector artwork",
+        "license": "GPL-3.0-only",
+        "verification": "Original project artwork; functional geometric shapes; no vendor mark copied",
+        "notices": [
+          "LICENSE",
+          "ATTRIBUTION.md"
+        ]
+      },
+      "review_status": "cleared",
+      "copyright": "2026 Monochrome Icons contributors",
+      "license": "GPL-3.0-only",
+      "desktop_ids": [
+        "ai.storyteller.wordcraft.desktop"
+      ]
+    },
+    {
+      "key": "gridcraft",
+      "name": "GridCraft",
+      "file": "icons/gridcraft.svg",
+      "sha256": "c62741434acb25f48950f4f834785bbf5b97b60e63dc839712d056b9147604da",
+      "changes": "Original spreadsheet grid and selected-cell drawing on the shared black rounded-square frame; created 2026-11-04.",
+      "modified_date": "2026-11-04",
+      "source": {
+        "project_url": null,
+        "asset_reference": "Original vector artwork",
+        "license": "GPL-3.0-only",
+        "verification": "Original project artwork; functional geometric shapes; no vendor mark copied",
+        "notices": [
+          "LICENSE",
+          "ATTRIBUTION.md"
+        ]
+      },
+      "review_status": "cleared",
+      "copyright": "2026 Monochrome Icons contributors",
+      "license": "GPL-3.0-only",
+      "desktop_ids": [
+        "ai.storyteller.gridcraft.desktop"
+      ]
+    },
+    {
+      "key": "deckcraft",
+      "name": "DeckCraft",
+      "file": "icons/deckcraft.svg",
+      "sha256": "9c164cea33ea6f5519efb8e7315d3cc2a0973c2b91176cdd47685af7ae8cff25",
+      "changes": "Original presentation screen, chart and stand drawing on the shared black rounded-square frame; created 2026-11-04.",
+      "modified_date": "2026-11-04",
+      "source": {
+        "project_url": null,
+        "asset_reference": "Original vector artwork",
+        "license": "GPL-3.0-only",
+        "verification": "Original project artwork; functional geometric shapes; no vendor mark copied",
+        "notices": [
+          "LICENSE",
+          "ATTRIBUTION.md"
+        ]
+      },
+      "review_status": "cleared",
+      "copyright": "2026 Monochrome Icons contributors",
+      "license": "GPL-3.0-only",
+      "desktop_ids": [
+        "ai.storyteller.deckcraft.desktop"
+      ]
+    },
+    {
+      "key": "pdfcraft",
+      "name": "PdfCraft",
+      "file": "icons/pdfcraft.svg",
+      "sha256": "b8fef402b468acd5909a37790721396bcabd2d0a03cbe14a839e51f30035ee28",
+      "changes": "Original folded document and inspection-lens drawing on the shared black rounded-square frame; created 2026-11-04.",
+      "modified_date": "2026-11-04",
+      "source": {
+        "project_url": null,
+        "asset_reference": "Original vector artwork",
+        "license": "GPL-3.0-only",
+        "verification": "Original project artwork; functional geometric shapes; no vendor mark copied",
+        "notices": [
+          "LICENSE",
+          "ATTRIBUTION.md"
+        ]
+      },
+      "review_status": "cleared",
+      "copyright": "2026 Monochrome Icons contributors",
+      "license": "GPL-3.0-only",
+      "desktop_ids": [
+        "ai.storyteller.pdfcraft.desktop"
       ]
     },
     {
@@ -5888,34 +6056,34 @@
   "previews": [
     {
       "file": "previews/applications-01.png",
-      "sha256": "6a226c50e65c60c4b2e08695e1084063c3342f8cef82232fab94ca0149b75f13"
+      "sha256": "457e9c1437fa39bf2a448e60b4bcf3d9bc586cfda6ad52b5f25fe09adb200f88"
     },
     {
       "file": "previews/applications-02.png",
-      "sha256": "4e7caf95d553c68b24bc9f3a30e0c43170e48aeb80b04f1d1a1868b996d5a227"
+      "sha256": "e14a427380f311fe87f76f5f0d1dbcd1b7e3e67e03eadf6200fc838a6ac5b960"
     },
     {
       "file": "previews/applications-03.png",
-      "sha256": "b36cb50892c6e9515181ed793358a9cbced0ae620e470453d0389383d955ca3d"
+      "sha256": "dc19661dc3cc30231bf293eec8b4acf327897cb54a8011b1b9a98000736d5b41"
     },
     {
       "file": "previews/applications-04.png",
-      "sha256": "18ab7803dab37d907ff30be5dcca361e3e55b2e419171b360e835beb22869511"
+      "sha256": "8b4e75dd82d4c24653cab2dbde68349c10946932ebdcc7833a68f648298c3669"
     },
     {
       "file": "previews/applications-05.png",
-      "sha256": "84571dd0f4a6ad4714ce8fcd9c59bff24cb8fc59efd4e7178eca7057ae7c04ca"
+      "sha256": "0287d3ad7ffff4053b5bcd93dfa7323da93886b04b1f8d76908daaed558b82fc"
     },
     {
       "file": "previews/menu-session.png",
-      "sha256": "07a2bad7ee44595bfe01ae485c5884f4338fb891f46fc10ef9e6ec0bd4ed6497"
+      "sha256": "ccbf7baf6782ace54495e48bfd59411e5b5dc6b6bddce9c82021fd8c12a0065d"
     },
     {
       "file": "previews/weather.png",
-      "sha256": "422170f0929c993fdc9ace9a6c05b0f69dcf860ef12f7e875688de5482dcaa83"
+      "sha256": "c7c7d7aa438e7b13eeb20cb6312eb0dc22dfba07659b8413d5663566490d4376"
     }
   ],
-  "version": "0.1.1",
+  "version": "0.2.0",
   "omitted": [
     {
       "key": "brave-origin",
@@ -6097,6 +6265,34 @@
     {
       "name": "Alacritty",
       "asset_key": "Alacritty"
+    },
+    {
+      "name": "ai.storyteller.artcraft-launcher",
+      "asset_key": "artcraft-launcher"
+    },
+    {
+      "name": "ai.storyteller.deckcraft",
+      "asset_key": "deckcraft"
+    },
+    {
+      "name": "ai.storyteller.gridcraft",
+      "asset_key": "gridcraft"
+    },
+    {
+      "name": "ai.storyteller.pdfcraft",
+      "asset_key": "pdfcraft"
+    },
+    {
+      "name": "ai.storyteller.photocraft",
+      "asset_key": "photocraft"
+    },
+    {
+      "name": "ai.storyteller.vectorcraft",
+      "asset_key": "vectorcraft"
+    },
+    {
+      "name": "ai.storyteller.wordcraft",
+      "asset_key": "wordcraft"
     },
     {
       "name": "asunder",

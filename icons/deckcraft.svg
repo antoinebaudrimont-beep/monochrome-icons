@@ -1,0 +1,16 @@
+<!--
+SPDX-License-Identifier: GPL-3.0-only
+Copyright 2026 Monochrome Icons contributors
+Original functional artwork created for Monochrome Icons; no vendor mark copied.
+Source and full notices: assets.json and ATTRIBUTION.md.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 64 64">
+  <g transform="translate(1.6 1.6) scale(.95)">
+    <rect x="2" y="2" width="60" height="60" rx="12" fill="#000" stroke="#fff" stroke-width="2.4"/>
+    <g fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="13" y="15" width="38" height="27" rx="3"/>
+      <path d="M32 42v8M24 50h16M20 34l7-7 6 5 8-9"/>
+      <circle cx="41" cy="23" r="2.2" fill="#fff" stroke="none"/>
+    </g>
+  </g>
+</svg>

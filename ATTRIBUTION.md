@@ -8,6 +8,10 @@ The machine-readable `assets.json` records each entry's copyright credit, applic
 
 Copyright 2026 Monochrome Icons contributors. Original drawings, frames, tools and new adaptations are distributed under [GPL version 3](LICENSE), with the upstream terms retained where applicable. GPL-3.0-only is the SPDX identifier for our original work. The catalog notes GPL-3.0-or-later source grants where the original permits later versions.
 
+### ArtCraft functional drawings
+
+The ArtCraft Launcher, PhotoCraft, VectorCraft, WordCraft, GridCraft, DeckCraft and PdfCraft icons added on 2026-11-04 are original Monochrome Icons drawings. They use generic functional geometry on the project's shared black face and white rounded frame. No ArtCraft logo or vendor icon geometry was copied. Application names and the `ai.storyteller.*` identifiers are used only to map the drawings to the applications they identify. These drawings are GPL-3.0-only.
+
 ## WhiteSur
 
 [WhiteSur-icon-theme](https://github.com/vinceliuice/WhiteSur-icon-theme), by Vince Liuice and its contributors, GPL-3.0. Included source artwork was checked against revision `73d8040da51a9ed74e47c7366e7e9ff437601a5c`. Source bytes match upstream, or SVG geometry matches with the installed dark palette differing; the per-asset catalog distinguishes those cases. The revision's complete [AUTHORS notice](notices/WhiteSur-AUTHORS.txt) and GPL text are included. This is an independent adaptation, not the upstream WhiteSur package.

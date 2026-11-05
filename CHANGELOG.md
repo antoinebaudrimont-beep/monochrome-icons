@@ -1,5 +1,18 @@
 # Changelog
 
+## v0.2.0 — 2026-11-05
+
+- Add original monochrome icons for ArtCraft Launcher, PhotoCraft, VectorCraft, WordCraft, GridCraft, DeckCraft and PdfCraft.
+- Add the seven published `ai.storyteller.*` Linux icon names and desktop IDs while preserving application commands and MIME declarations.
+- Expand the reviewed catalog to 213 entries and the PNG runtime theme to 4,330 files at ten sizes.
+- Add an isolated installer regression test for all seven ArtCraft launcher mappings.
+- Add an ArtCraft-only overlay mode that inherits the active theme and preserves unrelated artwork, with isolated conflict/restore tests.
+- Verify actual package identities, six live X11 window classes, ten document import/round-trip samples and live GTK icon resolution; document the embedded tray bitmap limitation.
+- Add an optional runtime tray adapter that preserves the original ArtCraft A silhouette in white, forwards clicks/menus and restores the original item when stopped. No vendor artwork is distributed or patched; alpha preservation and bounded bitmap handling have isolated tests.
+- Document refreshing Plank after obsolete package removal; the user confirmed both dock and tray appearance/functionality on the target desktop.
+
+Installed launchers, running-window matching, representative documents and rollback were verified on the target MX Linux desktop. The user confirmed dock/tray appearance and menu behavior and approved merge and versioned publication on 2026-11-05.
+
 ## v0.1.1 — 2026-10-03
 
 - Add 125 portable native icon-name mappings for running-app recognition in Plank and supported system-launcher readers such as MX Toolbox.

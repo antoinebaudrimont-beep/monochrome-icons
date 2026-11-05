@@ -1,4 +1,16 @@
-# v0.1.1 release scope
+# v0.2.0 ArtCraft integration scope
+
+- [x] Original GPL-3.0-only drawings for the six replacement apps and ArtCraft Launcher.
+- [x] Published Linux desktop IDs and native `ai.storyteller.*` icon names mapped in the catalog.
+- [x] Actual installed `.desktop` files, package origins, commands, MIME types and window classes verified on the target MX Linux system.
+- [x] PhotoCraft, VectorCraft, WordCraft, GridCraft, DeckCraft and PdfCraft launch and open representative target documents.
+- [x] Reversible local icon-theme, application-menu and Plank integration passes dry-run, isolated restore testing and combined live rollback preflight.
+- [x] Draft build, installer, integrity and GTK/Qt pixel tests pass after the final installed-ID audit.
+- [x] User explicitly approves merge and versioned publication (2026-11-05).
+- [x] User visually checks the four replacement dock pins and their running app icons on the physical desktop.
+- [x] Original-design tray adapter preserves the alpha mask, forwards menus and passes user visual/menu confirmation.
+
+## v0.1.1 release scope (completed)
 
 Only included artwork is covered by this release. Unresolved assets are omitted, not declared cleared. Remaining coverage/integration work belongs in the roadmap.
 
