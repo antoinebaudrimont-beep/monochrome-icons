@@ -1,6 +1,6 @@
 # Changelog
 
-## v0.2.0 — unreleased
+## v0.2.0 — 2026-11-05
 
 - Add original monochrome icons for ArtCraft Launcher, PhotoCraft, VectorCraft, WordCraft, GridCraft, DeckCraft and PdfCraft.
 - Add the seven published `ai.storyteller.*` Linux icon names and desktop IDs while preserving application commands and MIME declarations.
@@ -11,7 +11,7 @@
 - Add an optional runtime tray adapter that preserves the original ArtCraft A silhouette in white, forwards clicks/menus and restores the original item when stopped. No vendor artwork is distributed or patched; alpha preservation and bounded bitmap handling have isolated tests.
 - Document refreshing Plank after obsolete package removal; the user confirmed both dock and tray appearance/functionality on the target desktop.
 
-This remains a draft until the actual installed launchers, running-window matching, file compatibility and local rollback are verified on the target MX Linux desktop. Nothing is ready to merge without explicit user approval.
+Installed launchers, running-window matching, representative documents and rollback were verified on the target MX Linux desktop. The user confirmed dock/tray appearance and menu behavior and approved merge and versioned publication on 2026-11-05.
 
 ## v0.1.1 — 2026-10-03
 

@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
-  "release_status": "draft",
-  "export_date": "2026-11-04",
+  "release_status": "ready",
+  "export_date": "2026-11-05",
   "assets": [
     {
       "key": "aerc",

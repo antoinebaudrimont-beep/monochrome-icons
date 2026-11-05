@@ -4,11 +4,11 @@ White drawings on black faces, with a consistent rounded-square outline. Made fo
 
 ![Application sample](previews/applications-01.png)
 
-## v0.2.0 development branch
+## v0.2.0
 
-213 reviewed SVG catalog entries: 153 application/dock entries, 16 menu/panel entries, 6 session actions and 38 weather conditions. Counts include purposeful aliases, not 213 unique drawings. The development theme contains 4,330 PNGs at ten sizes (16/22/24/32/40/48/64/96/128/256), plus its index. The optional Xfce Weather companion remains 114 PNGs at 22, 48 and 128 pixels.
+213 reviewed SVG catalog entries: 153 application/dock entries, 16 menu/panel entries, 6 session actions and 38 weather conditions. Counts include purposeful aliases, not 213 unique drawings. The ready-to-install theme contains 4,330 PNGs at ten sizes (16/22/24/32/40/48/64/96/128/256), plus its index. The optional Xfce Weather companion remains 114 PNGs at 22, 48 and 128 pixels.
 
-This branch adds original monochrome drawings for ArtCraft Launcher, PhotoCraft, VectorCraft, WordCraft, GridCraft, DeckCraft and PdfCraft. It maps the published Linux icon names (`ai.storyteller.*`) and desktop IDs without changing their `Exec`, MIME or window-class fields. The seven drawings use functional suite, image, vector, document, spreadsheet, presentation and PDF-inspection symbols; they do not copy ArtCraft vendor marks.
+This release adds original monochrome drawings for ArtCraft Launcher, PhotoCraft, VectorCraft, WordCraft, GridCraft, DeckCraft and PdfCraft. It maps the published Linux icon names (`ai.storyteller.*`) and desktop IDs without changing their `Exec`, MIME or window-class fields. The seven drawings use functional suite, image, vector, document, spreadsheet, presentation and PDF-inspection symbols; they do not copy ArtCraft vendor marks.
 
 To add only these seven apps while preserving a customized desktop, use the [ArtCraft-only overlay](ARTCRAFT.md). Installed package/launcher evidence, compatibility boundaries and the embedded-tray-icon limitation are documented there.
 

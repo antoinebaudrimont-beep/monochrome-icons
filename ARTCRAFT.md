@@ -22,11 +22,11 @@ The packages install icons into the standard `hicolor` theme, including scalable
 
 The optional ArtCraft-only overlay contains 210 PNGs and one index. Its `ArtCraftMonochrome` theme inherits the currently selected theme, so existing artwork, dynamic calendars and menu/category icons remain with that theme. It installs all three names for each drawing at ten sizes. This mode cannot install Weather or menu-category artwork.
 
-For local testing of this unreleased branch:
+To install the released ArtCraft-only overlay:
 
 ```sh
-python3 tools/install_theme.py install --allow-draft --artcraft-overlay --known-apps --activate --dry-run
-python3 tools/install_theme.py install --allow-draft --artcraft-overlay --known-apps --activate
+python3 tools/install_theme.py install --artcraft-overlay --known-apps --activate --dry-run
+python3 tools/install_theme.py install --artcraft-overlay --known-apps --activate
 ```
 
 The existing-theme name may be supplied with `--base-theme THEME`; activation refuses a base different from the current theme. Isolated tests using `--home` require an explicit base. Existing overlay directories are never overwritten. Keep the printed restore manifest and follow the normal conflict-aware restore procedure in `README.md`.
